@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified"
+           targetNamespace="http://www.sweretailstandard.se/schemas/namespace/se"
+           xmlns="http://www.sweretailstandard.se/schemas/namespace/se"
+           xmlns:dr="http://www.nrf-arts.org/IXRetail/namespace/"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:import namespace="http://www.nrf-arts.org/IXRetail/namespace/"/>
+
+    <!-- common -->
+    <xs:complexType name="DateRangeType">
+        <xs:sequence>
+            <xs:element name="FromDate" type="xs:date"/>
+            <xs:element name="ToDate" type="xs:date"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:simpleType name="TextType">
+        <xs:annotation>
+            <xs:documentation>Can be used to describe line items, will be displayed on the receipt</xs:documentation>
+        </xs:annotation>
+        <xs:restriction base="xs:string"></xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="ReceiptCodeType">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="[0-9]{16}"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:element name="ReceiptCode" type="ReceiptCodeType"/>
+    <xs:element name="ReceiptCodeLink" type="ReceiptCodeType"/>
+
+    <!-- Receipt receiver -->
+    <xs:element name="Receiver">
+        <xs:annotation>
+            <xs:documentation>Receipt receiver identification</xs:documentation>
+        </xs:annotation>
+        <xs:complexType>
+            <xs:simpleContent>
+                <xs:extension base="xs:string">
+                    <xs:attribute name="Type" type="ReceiverIDType"/>
+                </xs:extension>
+            </xs:simpleContent>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="Customer" type="CustomerType"/>
+
+    <xs:complexType name="CustomerType">
+        <xs:complexContent>
+            <xs:extension base="dr:CustomerCommonData">
+                <xs:sequence>
+                    <xs:element name="serviceid" minOccurs="0" type="xs:string"/>
+                </xs:sequence>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+
+    <xs:element name="BusinessUnit" type="BusinessUnitType"/>
+
+    <xs:complexType name="BusinessUnitType">
+        <xs:complexContent>
+            <xs:extension base="dr:BusinessUnitComplexType">
+                <xs:sequence>
+                    <xs:element name="OrganisationID" minOccurs="1" type="xs:string"/>
+                    <xs:element name="ServiceID" minOccurs="0" type="xs:string"/>
+                </xs:sequence>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+
+    <xs:simpleType name="ReceiverIDTypeExtension">
+        <xs:restriction base="dr:IXREnumerationExtension"/>
+    </xs:simpleType>
+    <xs:simpleType name="ReceiverIDType">
+        <xs:union memberTypes="ReceiverIDTypeEnumeration ReceiverIDTypeExtension"/>
+    </xs:simpleType>
+    <xs:simpleType name="ReceiverIDTypeEnumeration">
+        <xs:restriction base="xs:NMTOKEN">
+            <xs:enumeration value="NationalIdentityNumber"/>
+            <xs:enumeration value="ServiceID"/>
+            <xs:enumeration value="EmailAddress"/>
+            <xs:enumeration value="TelephoneNumber"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <!-- Receipt issuer -->
+    <xs:complexType name="IssuerType">
+        <xs:sequence>
+            <xs:element name="OrganisationID" minOccurs="0" type="xs:string"/>
+        </xs:sequence>
+        <xs:attribute name="id" type="xs:string"/>
+        <xs:attribute name="idType" type="IssuerIDType"/>
+    </xs:complexType>
+    <xs:element name="Issuer" type="IssuerType"/>
+    <xs:simpleType name="IssuerIDType">
+        <xs:union memberTypes="IssuerIDTypeEnumeration"/>
+    </xs:simpleType>
+    <xs:simpleType name="IssuerIDTypeEnumeration">
+        <xs:restriction base="xs:NMTOKEN">
+            <xs:enumeration value="ServiceID"/>
+            <xs:enumeration value="VAT"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <!-- item -->
+    <xs:element name="ItemText">
+        <xs:annotation>
+            <xs:documentation>Text that will be displayed on receipt items</xs:documentation>
+        </xs:annotation>
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element maxOccurs="unbounded" minOccurs="0" name="Text" type="TextType"/>
+            </xs:sequence>
+            <xs:attribute name="textOnly" type="xs:boolean" default="true"/>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:simpleType name="ReminderTypeCode">
+        <xs:union memberTypes="ReminderTypeCodeEnumeration dr:TypeCodeExtension"/>
+    </xs:simpleType>
+    <xs:simpleType name="ReminderTypeCodeEnumeration">
+        <xs:restriction base="xs:NMTOKEN">
+            <xs:enumeration value="Warranty"/>
+            <xs:enumeration value="Insurance"/>
+            <xs:enumeration value="PurchaseOnApproval"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:complexType name="ReminderType">
+        <xs:sequence>
+            <xs:element name="Description" type="TextType"/>
+            <xs:element name="ReminderDate" type="xs:dateTime"/>
+        </xs:sequence>
+        <xs:attribute form="unqualified" name="TypeCode"
+                      type="ReminderTypeCode"/>
+    </xs:complexType>
+    <xs:element name="Reminder" type="ReminderType">
+        <xs:annotation>
+            <xs:documentation>Swedish extension: Use this field to add a consumer reminder.</xs:documentation>
+            <xs:documentation>Example: Due date for warranty, insurance, etc connected to the sales item. </xs:documentation>
+        </xs:annotation>
+    </xs:element>
+
+    <!-- Header -->
+    <xs:element name="HeaderText">
+        <xs:annotation>
+            <xs:documentation>Text that will be displayed in the receipt header</xs:documentation>
+        </xs:annotation>
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element maxOccurs="unbounded" minOccurs="0" name="Text" type="TextType"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <!-- Attachments -->
+    <xs:simpleType name="AttachmentTypeCodeEnumerationExtension">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="x:[0-9A-Za-z]*"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="AttachmentTypeEnumeration">
+        <xs:restriction base="xs:NMTOKEN">
+            <xs:enumeration value="Insurance"/>
+            <xs:enumeration value="Guarantee"/>
+            <xs:enumeration value="Guide"/>
+            <xs:enumeration value="Other"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="AttachmentTypeCode">
+        <xs:union memberTypes="AttachmentTypeEnumeration AttachmentTypeCodeEnumerationExtension"/>
+    </xs:simpleType>
+    <xs:simpleType name="SequenceNumberType">
+        <xs:restriction base="xs:unsignedLong">
+            <xs:minInclusive value="0"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:element name="Attachment">
+        <xs:annotation>
+            <xs:documentation>Swedish standard extension: One or more attachments can be added to the receipt. Images attached must be base64 encoded</xs:documentation>
+        </xs:annotation>
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Name" type="xs:string"/>
+                <xs:element name="Description" type="xs:string" minOccurs="0"/>
+                <xs:element name="DisplayPeriod" type="DateRangeType" minOccurs="0"/>
+                <xs:element name="ValidPeriod" type="DateRangeType" minOccurs="0"/>
+                <xs:choice minOccurs="1">
+                    <xs:element name="URL" type="xs:anyURI" form="qualified"/>
+                    <xs:element name="Image" form="qualified">
+                        <xs:complexType>
+                            <xs:simpleContent>
+                                <xs:extension base="xs:base64Binary">
+                                    <xs:attribute form="unqualified" name="TypeCode"
+                                                  type="dr:ImageTypeCode"/>
+                                </xs:extension>
+                            </xs:simpleContent>
+                        </xs:complexType>
+                    </xs:element>
+              	</xs:choice>
+                <xs:element form="qualified" maxOccurs="unbounded" minOccurs="0" name="ItemLink"
+                    type="SequenceNumberType">
+                    <xs:annotation>
+                        <xs:documentation>Link to any line item via sequence number if important</xs:documentation>
+                    </xs:annotation>
+                </xs:element>
+            </xs:sequence>
+            <xs:attribute name="AttachmentType" type="AttachmentTypeCode" use="optional" form="unqualified"/>
+        </xs:complexType>
+    </xs:element>
+
+    <!-- Control unit -->
+    <xs:element name="ControlUnit">
+        <xs:annotation>
+            <xs:documentation> Swedish tax control unit extension: A number of lines with control unit info can be added if applicable, will be displayed on the digital receipt</xs:documentation>
+        </xs:annotation>
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Text" minOccurs="0" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:simpleContent>
+                            <xs:extension base="xs:string">
+                                <xs:attribute name="Name" type="xs:string" use="optional">
+                                </xs:attribute>
+                            </xs:extension>
+                        </xs:simpleContent>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <!-- Tender related -->
+    <xs:element name="PaymentTerminal">
+        <xs:annotation>
+            <xs:documentation>A number of lines with payment terminal info can be added to avoid printing of
+                payment slip
+            </xs:documentation>
+        </xs:annotation>
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Text" minOccurs="0" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:simpleContent>
+                            <xs:extension base="xs:string">
+                                <xs:attribute name="Name" type="xs:string" use="optional">
+                                </xs:attribute>
+                            </xs:extension>
+                        </xs:simpleContent>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <!-- "global" attributes -->
+    <!-- a link to an image to be displayed -->
+    <xs:attribute name="imgsrc" type="xs:anyURI"/>
+    <!-- a link to be displayed, e.g. related to a sales item -->
+    <xs:attribute name="href" type="xs:anyURI"/>
+    <!-- if true the receipt is a digital copy -->
+    <xs:attribute name="copy" type="xs:boolean" default="false"/>
+
+</xs:schema>

@@ -1,0 +1,290 @@
+<nam:DigitalReceipt MajorVersion="6" MinorVersion="0" FixVersion="0" se:copy="true"
+                    xmlns:nam="http://www.nrf-arts.org/IXRetail/namespace/"
+                    xmlns:se="http://www.sweretailstandard.se/schemas/namespace/se"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    xsi:schemaLocation="http://www.nrf-arts.org/IXRetail/namespace/ http://www.nrf-arts.org/IXRetail/namespace/DigitalReceiptV2.0.0.xsd http://www.sweretailstandard.se/schemas/namespace/se http://www.sweretailstandard.se/schemas/namespace/se/SweArtsDR200ExtV1.0.0.xsd">
+    <nam:Transaction>
+        <nam:BusinessUnit>
+            <nam:UnitID Name="Superstore LA">LA-ST</nam:UnitID>
+            <nam:Address>
+                <nam:AddressLine TypeCode="Street">Stortorget 278</nam:AddressLine>
+                <nam:City>111 00 </nam:City>
+                <nam:PostalCode/>
+                <nam:Country Code="SE">Sverige</nam:Country>
+            </nam:Address>
+            <nam:Telephone>
+                <nam:AreaCode/>
+                <nam:LocalNumber>0240-100 00</nam:LocalNumber>
+                <nam:ITUCountryCode>46</nam:ITUCountryCode>
+            </nam:Telephone>
+            <nam:Website>www.superstore.com</nam:Website>
+        </nam:BusinessUnit>
+        <nam:WorkstationID SerialNumber="" Mode="Retail" TypeCode="POS">10</nam:WorkstationID>
+        <nam:SequenceNumber>1019900</nam:SequenceNumber>
+        <nam:OperatorID OperatorType="Cashier">Lennart</nam:OperatorID>
+        <nam:CurrencyCode>SEK</nam:CurrencyCode>
+        <nam:TrailerText>
+            <nam:Text>Öppet köp &amp; byte i 7 dagar mot kvitto.
+            </nam:Text>
+            <nam:Text>För REA-varor gäller byte i 5 dagar. Ej öppet köp.
+            </nam:Text>
+            <nam:Text>Bad- &amp; underkläder bytes endast plomberade.
+            </nam:Text>
+            <nam:Text>Välkommen åter!
+            </nam:Text>
+            <nam:Text/>
+            <nam:Text/>
+            <nam:Text/>
+            <nam:Text/>
+            <nam:Text/>
+        </nam:TrailerText>
+        <nam:VATRegistrationNumber>SE556577441001</nam:VATRegistrationNumber>
+        <nam:ReceiptDateTime>2014-04-14T18:36:19+02:00</nam:ReceiptDateTime>
+        <nam:ReceiptNumber TypeCode="Interleaved2Of5">1019900</nam:ReceiptNumber>
+        <nam:RetailTransaction>
+            <nam:ItemCount>9</nam:ItemCount>
+            <nam:LineItem>
+                <nam:Sale ItemType="Stock" TaxableFlag="true" ReturnableFlag="true">
+                    <nam:POSIdentity>
+                        <nam:POSItemID>141141-272033 74241-M</nam:POSItemID>
+                    </nam:POSIdentity>
+                    <nam:POSIdentity POSIDType="mainGroup">
+                        <nam:POSItemID>HER</nam:POSItemID>
+                        <nam:Qualifier>Her</nam:Qualifier>
+                    </nam:POSIdentity>
+                    <nam:POSIdentity POSIDType="articleGroup">
+                        <nam:POSItemID>UW</nam:POSItemID>
+                        <nam:Qualifier>Underwear Women</nam:Qualifier>
+                    </nam:POSIdentity>
+                    <nam:Description>Hipster, Look -Don't Touch!</nam:Description>
+                    <nam:UnitCostPrice Currency="SEK" Quantity="1." UnitOfMeasureCode="EA">149.00</nam:UnitCostPrice>
+                    <nam:ActualSalesUnitPrice Currency="SEK" Action="Add">119.70</nam:ActualSalesUnitPrice>
+                    <nam:ExtendedAmount Currency="SEK" Action="Add">119.70</nam:ExtendedAmount>
+                    <nam:DiscountAmount>29.30</nam:DiscountAmount>
+                    <nam:ExtendedDiscountAmount>29.30</nam:ExtendedDiscountAmount>
+                    <nam:Quantity Units="1" UnitOfMeasureCode="EA">1.</nam:Quantity>
+                    <nam:Tax>
+                        <nam:Percent>25.</nam:Percent>
+                    </nam:Tax>
+                </nam:Sale>
+                <nam:SequenceNumber>1</nam:SequenceNumber>
+            </nam:LineItem>
+            <nam:LineItem>
+                <nam:Sale ItemType="Stock" TaxableFlag="true" ReturnableFlag="true">
+                    <nam:POSIdentity>
+                        <nam:POSItemID>000123-272033 99010-M</nam:POSItemID>
+                    </nam:POSIdentity>
+                    <nam:POSIdentity POSIDType="mainGroup">
+                        <nam:POSItemID>HER</nam:POSItemID>
+                        <nam:Qualifier>Her</nam:Qualifier>
+                    </nam:POSIdentity>
+                    <nam:POSIdentity POSIDType="articleGroup">
+                        <nam:POSItemID>UW</nam:POSItemID>
+                        <nam:Qualifier>Underwear Women</nam:Qualifier>
+                    </nam:POSIdentity>
+                    <nam:Description>Hipster, Love All Running Colours</nam:Description>
+                    <nam:UnitCostPrice Currency="SEK" Quantity="1." UnitOfMeasureCode="EA">149.00</nam:UnitCostPrice>
+                    <nam:ActualSalesUnitPrice Currency="SEK" Action="Add">119.70</nam:ActualSalesUnitPrice>
+                    <nam:ExtendedAmount Currency="SEK" Action="Add">119.70</nam:ExtendedAmount>
+                    <nam:DiscountAmount>29.30</nam:DiscountAmount>
+                    <nam:ExtendedDiscountAmount>29.30</nam:ExtendedDiscountAmount>
+                    <nam:Quantity Units="1" UnitOfMeasureCode="EA">1.</nam:Quantity>
+                    <nam:Tax>
+                        <nam:Percent>25.</nam:Percent>
+                    </nam:Tax>
+                </nam:Sale>
+                <nam:SequenceNumber>2</nam:SequenceNumber>
+            </nam:LineItem>
+            <nam:LineItem>
+                <nam:Sale ItemType="Stock" TaxableFlag="true" ReturnableFlag="true">
+                    <nam:POSIdentity>
+                        <nam:POSItemID>142259-273111 57011-M</nam:POSItemID>
+                    </nam:POSIdentity>
+                    <nam:POSIdentity POSIDType="mainGroup">
+                        <nam:POSItemID>HER</nam:POSItemID>
+                        <nam:Qualifier>Her</nam:Qualifier>
+                    </nam:POSIdentity>
+                    <nam:POSIdentity POSIDType="articleGroup">
+                        <nam:POSItemID>UW</nam:POSItemID>
+                        <nam:Qualifier>Underwear Women</nam:Qualifier>
+                    </nam:POSIdentity>
+                    <nam:Description>Hotpant, Play Alll</nam:Description>
+                    <nam:UnitCostPrice Currency="SEK" Quantity="1." UnitOfMeasureCode="EA">149.00</nam:UnitCostPrice>
+                    <nam:ActualSalesUnitPrice Currency="SEK" Action="Add">119.70</nam:ActualSalesUnitPrice>
+                    <nam:ExtendedAmount Currency="SEK" Action="Add">119.70</nam:ExtendedAmount>
+                    <nam:DiscountAmount>29.30</nam:DiscountAmount>
+                    <nam:ExtendedDiscountAmount>29.30</nam:ExtendedDiscountAmount>
+                    <nam:Quantity Units="1" UnitOfMeasureCode="EA">1.</nam:Quantity>
+                    <nam:Tax>
+                        <nam:Percent>25.</nam:Percent>
+                    </nam:Tax>
+                </nam:Sale>
+                <nam:SequenceNumber>3</nam:SequenceNumber>
+            </nam:LineItem>
+            <nam:LineItem>
+                <nam:Sale ItemType="Stock" TaxableFlag="true" ReturnableFlag="true">
+                    <nam:POSIdentity>
+                        <nam:POSItemID>142259-273111 75051-M</nam:POSItemID>
+                    </nam:POSIdentity>
+                    <nam:POSIdentity POSIDType="mainGroup">
+                        <nam:POSItemID>HER</nam:POSItemID>
+                        <nam:Qualifier>Her</nam:Qualifier>
+                    </nam:POSIdentity>
+                    <nam:POSIdentity POSIDType="articleGroup">
+                        <nam:POSItemID>UW</nam:POSItemID>
+                        <nam:Qualifier>Underwear Women</nam:Qualifier>
+                    </nam:POSIdentity>
+                    <nam:Description>Hotpant, Play Alll</nam:Description>
+                    <nam:UnitCostPrice Currency="SEK" Quantity="1." UnitOfMeasureCode="EA">149.00</nam:UnitCostPrice>
+                    <nam:ActualSalesUnitPrice Currency="SEK" Action="Add">149.00</nam:ActualSalesUnitPrice>
+                    <nam:ExtendedAmount Currency="SEK" Action="Add">149.00</nam:ExtendedAmount>
+                    <nam:DiscountAmount>0.00</nam:DiscountAmount>
+                    <nam:ExtendedDiscountAmount>0.00</nam:ExtendedDiscountAmount>
+                    <nam:Quantity Units="1" UnitOfMeasureCode="EA">1.</nam:Quantity>
+                    <nam:Tax>
+                        <nam:Percent>25.</nam:Percent>
+                    </nam:Tax>
+                </nam:Sale>
+                <nam:SequenceNumber>4</nam:SequenceNumber>
+            </nam:LineItem>
+            <nam:LineItem>
+                <nam:Sale ItemType="Stock" TaxableFlag="false" ReturnableFlag="true">
+                    <nam:POSIdentity>
+                        <nam:POSItemID>ROUNDING</nam:POSItemID>
+                    </nam:POSIdentity>
+                    <nam:Description>Öresavrundning</nam:Description>
+                    <nam:UnitCostPrice Currency="SEK" Quantity="1." UnitOfMeasureCode="EA">0.10</nam:UnitCostPrice>
+                    <nam:ActualSalesUnitPrice Currency="SEK" Action="Subtract">0.10</nam:ActualSalesUnitPrice>
+                    <nam:ExtendedAmount Currency="SEK" Action="Subtract">0.10</nam:ExtendedAmount>
+                    <nam:DiscountAmount>0.00</nam:DiscountAmount>
+                    <nam:ExtendedDiscountAmount>0.00</nam:ExtendedDiscountAmount>
+                    <nam:Quantity Units="1" UnitOfMeasureCode="EA">1.</nam:Quantity>
+                    <nam:Tax>
+                        <nam:Percent>0.</nam:Percent>
+                    </nam:Tax>
+                </nam:Sale>
+                <nam:SequenceNumber>5</nam:SequenceNumber>
+            </nam:LineItem>
+            <nam:LineItem>
+                <nam:Tax>
+                    <nam:TaxableAmount Currency="SEK" TaxIncludedInTaxableAmountFlag="false">0.10</nam:TaxableAmount>
+                    <nam:Amount Currency="SEK">0.00</nam:Amount>
+                    <nam:Percent>0.</nam:Percent>
+                </nam:Tax>
+                <nam:SequenceNumber>6</nam:SequenceNumber>
+            </nam:LineItem>
+            <nam:LineItem>
+                <nam:Tax>
+                    <nam:TaxableAmount Currency="SEK" TaxIncludedInTaxableAmountFlag="false">406.40</nam:TaxableAmount>
+                    <nam:Amount Currency="SEK">101.60</nam:Amount>
+                    <nam:Percent>25.</nam:Percent>
+                </nam:Tax>
+                <nam:SequenceNumber>7</nam:SequenceNumber>
+            </nam:LineItem>
+            <nam:LineItem>
+                <nam:Tender TypeCode="Sale" TenderType="GiftCard">
+                    <nam:Amount Currency="SEK">500.00</nam:Amount>
+                    <nam:GiftCard>
+                        <nam:CardNumber>V1000248</nam:CardNumber>
+                        <nam:ExpirationDate>2016-03-06</nam:ExpirationDate>
+                        <nam:CurrentBalance>500.00</nam:CurrentBalance>
+                    </nam:GiftCard>
+                </nam:Tender>
+                <nam:SequenceNumber>8</nam:SequenceNumber>
+            </nam:LineItem>
+            <nam:LineItem>
+                <nam:Tender TypeCode="Sale" TenderType="CreditDebit">
+                    <nam:Amount Currency="SEK">8.00</nam:Amount>
+                    <nam:AmountAppliedToBill Currency="SEK">8.00</nam:AmountAppliedToBill>
+                    <se:PaymentTerminal>
+                        <se:Text Name="">Mystore</se:Text>
+                        <se:Text Name="">Stortorget 278</se:Text>
+                        <se:Text Name="">S-77100 Ludvika</se:Text>
+                        <se:Text Name="TEL: ">024010000</se:Text>
+                        <se:Text Name="Org.nr: ">999999-9999</se:Text>
+                        <se:Text Name="">Myshop Sweden AB</se:Text>
+                        <se:Text Name="Butiksnr: ">10572741</se:Text>
+                        <se:Text Name="Termid: ">7320080100046136</se:Text>
+                        <se:Text Name="">2014-04-14 18:36</se:Text>
+                        <se:Text Name="">KÖP</se:Text>
+                        <se:Text Name="SEK: ">8,00</se:Text>
+                        <se:Text Name="Varav moms: ">1,60</se:Text>
+                        <se:Text Name="TOTALT: ">8,00</se:Text>
+                        <se:Text Name="">Personlig kod</se:Text>
+                        <se:Text Name="">**** **** **** 0979</se:Text>
+                        <se:Text Name=""></se:Text>
+                        <se:Text Name="">VISA</se:Text>
+                        <se:Text Name="">Ca2 ___ TEL 995 L31846</se:Text>
+                        <se:Text Name="Ref.nr: ">000461365626</se:Text>
+                        <se:Text Name="AID: ">A000000003101000</se:Text>
+                        <se:Text Name="TVR: ">0000000000</se:Text>
+                        <se:Text Name="TSI: ">E800</se:Text>
+                        <se:Text Name="">SPARA KVITTOT</se:Text>
+                        <se:Text Name="">KUNDENS KOPIA</se:Text>
+                        <se:Text Name=""/>
+                    </se:PaymentTerminal>
+                </nam:Tender>
+                <nam:SequenceNumber>9</nam:SequenceNumber>
+            </nam:LineItem>
+            <nam:LineItem>
+                <nam:TenderChange TypeCode="Refund" TenderType="Cash">
+                    <nam:Amount Currency="SEK">0.00</nam:Amount>
+                    <nam:AmountAppliedToBill Currency="SEK">0.00</nam:AmountAppliedToBill>
+                </nam:TenderChange>
+                <nam:SequenceNumber>10</nam:SequenceNumber>
+            </nam:LineItem>
+            <nam:Total TotalType="TransactionNetAmount">406.30</nam:Total>
+            <nam:Total TotalType="TransactionGrandAmount">508.00</nam:Total>
+            <nam:Customer>
+                <nam:CustomerID></nam:CustomerID>
+                <nam:Address>
+                    <nam:AddressLine>hej</nam:AddressLine>
+                </nam:Address>
+                <nam:TelephoneNumber>
+                    <nam:LocalNumber>+46(0)86126694</nam:LocalNumber>
+                </nam:TelephoneNumber>
+                <nam:EMail>
+                    <nam:EMailAddress>someone@email.com</nam:EMailAddress>
+                </nam:EMail>
+            </nam:Customer>
+            <se:Receiver Type="NationalIdentityNumber">1111111111</se:Receiver>
+            <se:Customer>
+                <nam:CustomerID></nam:CustomerID>
+                <nam:Address>
+                    <nam:AddressLine>hej</nam:AddressLine>
+                </nam:Address>
+                <nam:TelephoneNumber>
+                    <nam:LocalNumber>+46(0)86126694</nam:LocalNumber>
+                </nam:TelephoneNumber>
+                <nam:EMail>
+                    <nam:EMailAddress>someone@email.com</nam:EMailAddress>
+                </nam:EMail>
+                <se:serviceid>123</se:serviceid>
+            </se:Customer>
+        </nam:RetailTransaction>
+        <se:BusinessUnit>
+            <nam:UnitID Name="Superstore LA">LA-ST</nam:UnitID>
+            <nam:Address>
+                <nam:AddressLine TypeCode="Street">Stortorget 278</nam:AddressLine>
+                <nam:City>111 00 </nam:City>
+                <nam:PostalCode/>
+                <nam:Country Code="SE">Sverige</nam:Country>
+            </nam:Address>
+            <nam:Telephone>
+                <nam:AreaCode/>
+                <nam:LocalNumber>0240-100 00</nam:LocalNumber>
+                <nam:ITUCountryCode>46</nam:ITUCountryCode>
+            </nam:Telephone>
+            <nam:Website>www.mystore.com</nam:Website>
+            <se:OrganisationID>9999999999</se:OrganisationID>
+            <se:ServiceID>5922f97bfeb148d6b9a6ef76f76ebdce</se:ServiceID>
+        </se:BusinessUnit>
+        <se:Issuer id="5922f97bfeb148d6b9a6ef76f76ebdce" idType="ServiceID">
+            <se:OrganisationID>9999999999</se:OrganisationID>
+        </se:Issuer>
+        <se:ReceiptCode>1411630411409366</se:ReceiptCode>
+    </nam:Transaction>
+    <se:ControlUnit>
+        <se:Text Name="Kontrollenhetens tillverkningsnummer:">RIHTT103801065896</se:Text>
+    </se:ControlUnit>
+</nam:DigitalReceipt>
