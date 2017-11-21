@@ -1,2 +1,2 @@
 # digital-receipt-standard
-Proposal for digital receipts based on ARTS DR standard and swedish legislations
+Proposal for a swedish digital receipt standard based on the ARTS DR standard and swedish legislation.
