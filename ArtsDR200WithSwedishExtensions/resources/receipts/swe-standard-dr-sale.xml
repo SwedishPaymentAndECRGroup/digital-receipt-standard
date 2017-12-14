@@ -1,0 +1,169 @@
+<nam:DigitalReceipt MajorVersion="6" MinorVersion="0" FixVersion="0"
+                    xmlns:nam="http://www.nrf-arts.org/IXRetail/namespace/"
+                    xmlns:se="http://www.sweretailstandard.se/schemas/namespace/se"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    xsi:schemaLocation="http://www.nrf-arts.org/IXRetail/namespace/ http://www.nrf-arts.org/IXRetail/namespace/DigitalReceiptV2.0.0.xsd
+                    http://www.sweretailstandard.se/schemas/namespace/se http://www.sweretailstandard.se/schemas/namespace/se/SweArtsDR200ExtV1.0.0.xsd">
+    <nam:Transaction>
+        <nam:BusinessUnit>
+            <nam:UnitID Name="My Superstore">RS-0221</nam:UnitID>
+            <nam:Address>
+                <nam:AddressLine TypeCode="Street">Stortorget 278</nam:AddressLine>
+                <nam:City>Köpstad</nam:City>
+                <nam:PostalCode>11100</nam:PostalCode>
+                <nam:Country Code="SE">Sverige</nam:Country>
+            </nam:Address>
+            <nam:Telephone TypeCode="Work">
+                <nam:AreaCode>0771</nam:AreaCode>
+                <nam:LocalNumber>584886</nam:LocalNumber>
+                <nam:ITUCountryCode>46</nam:ITUCountryCode>
+            </nam:Telephone>
+        </nam:BusinessUnit>
+        <nam:WorkstationID SerialNumber="EA38329" Mode="Retail" TypeCode="POS">65252</nam:WorkstationID>
+        <nam:SequenceNumber>123789798712300</nam:SequenceNumber>
+        <nam:OperatorID OperatorType="Cashier">Olle</nam:OperatorID>
+        <nam:CurrencyCode>SEK</nam:CurrencyCode>
+        <nam:TrailerText>
+            <nam:Text>Spara kvittot, gäller som garanti.</nam:Text>
+            <nam:Text>Öppet köp 30 dagar.</nam:Text>
+        </nam:TrailerText>
+        <nam:VATRegistrationNumber>SE11223344449</nam:VATRegistrationNumber>
+        <nam:ReceiptDateTime>2017-12-02T11:49:00+01:00</nam:ReceiptDateTime>
+        <nam:ReceiptNumber TypeCode="Interleaved2Of5">02890093672714</nam:ReceiptNumber>
+        <nam:RetailTransaction>
+            <nam:ItemCount>7</nam:ItemCount>
+            <nam:LineItem>
+                <nam:Sale ItemType="Stock" TaxableFlag="true" ReturnableFlag="true">
+                    <nam:POSIdentity>
+                        <nam:POSItemID>608794</nam:POSItemID>
+                    </nam:POSIdentity>
+                    <nam:POSIdentity POSIDType="mainGroup">
+                        <nam:POSItemID>010300</nam:POSItemID>
+                        <nam:Qualifier>bil-mc</nam:Qualifier>
+                    </nam:POSIdentity>
+                    <nam:POSIdentity POSIDType="articleGroup">
+                        <nam:POSItemID>010303</nam:POSItemID>
+                        <nam:Qualifier>säkerhetsdetaljer</nam:Qualifier>
+                    </nam:POSIdentity>
+                    <nam:Description>Bogserlina med krokar</nam:Description>
+                    <nam:UnitCostPrice Currency="SEK" Quantity="1" UnitOfMeasureCode="EA">79.00</nam:UnitCostPrice>
+                    <nam:ActualSalesUnitPrice Currency="SEK" Action="Add">69.00</nam:ActualSalesUnitPrice>
+                    <nam:ExtendedAmount Currency="SEK" Action="Add">138.00</nam:ExtendedAmount>
+                    <nam:DiscountAmount>10</nam:DiscountAmount>
+                    <nam:ExtendedDiscountAmount>20</nam:ExtendedDiscountAmount>
+                    <nam:Quantity Units="2" UnitOfMeasureCode="EA">1</nam:Quantity>
+                    <nam:Tax>
+                        <nam:Percent>25</nam:Percent>
+                    </nam:Tax>
+                </nam:Sale>
+                <nam:SequenceNumber>1</nam:SequenceNumber>
+            </nam:LineItem>
+            <nam:LineItem>
+                <nam:Sale ItemType="Stock" TaxableFlag="true" ReturnableFlag="true">
+                    <nam:POSIdentity>
+                        <nam:POSItemID>923048</nam:POSItemID>
+                    </nam:POSIdentity>
+                    <nam:POSIdentity POSIDType="mainGroup">
+                        <nam:POSItemID>070700</nam:POSItemID>
+                        <nam:Qualifier>kontor-teknik</nam:Qualifier>
+                    </nam:POSIdentity>
+                    <nam:POSIdentity POSIDType="articleGroup">
+                        <nam:POSItemID>0870773</nam:POSItemID>
+                        <nam:Qualifier>hörlurar</nam:Qualifier>
+                    </nam:POSIdentity>
+                    <nam:Description>Headset hörlurar - SLR</nam:Description>
+                    <nam:UnitCostPrice Currency="SEK" Quantity="1" UnitOfMeasureCode="EA">49.00</nam:UnitCostPrice>
+                    <nam:ActualSalesUnitPrice Currency="SEK" Action="Add">49.00</nam:ActualSalesUnitPrice>
+                    <nam:ExtendedAmount Currency="SEK" Action="Add">49.00</nam:ExtendedAmount>
+                    <nam:Quantity Units="1" UnitOfMeasureCode="EA">1</nam:Quantity>
+                    <nam:Tax>
+                        <nam:Percent>25</nam:Percent>
+                    </nam:Tax>
+                </nam:Sale>
+                <nam:SequenceNumber>2</nam:SequenceNumber>
+            </nam:LineItem>
+            <nam:LineItem>
+                <nam:Sale ItemType="Stock" TaxableFlag="true" ReturnableFlag="true">
+                    <nam:POSIdentity>
+                        <nam:POSItemID>912042</nam:POSItemID>
+                    </nam:POSIdentity>
+                    <nam:POSIdentity POSIDType="mainGroup">
+                        <nam:POSItemID>020100</nam:POSItemID>
+                        <nam:Qualifier>verktyg</nam:Qualifier>
+                    </nam:POSIdentity>
+                    <nam:POSIdentity POSIDType="articleGroup">
+                        <nam:POSItemID>020101</nam:POSItemID>
+                        <nam:Qualifier>skor-stövlar</nam:Qualifier>
+                    </nam:POSIdentity>
+                    <nam:Description>Stövel 42 - Fodrad BR</nam:Description>
+                    <nam:UnitCostPrice Currency="SEK" Quantity="1" UnitOfMeasureCode="EA">395.00</nam:UnitCostPrice>
+                    <nam:ActualSalesUnitPrice Currency="SEK" Action="Add">395.00</nam:ActualSalesUnitPrice>
+                    <nam:ExtendedAmount Currency="SEK" Action="Add">395.00</nam:ExtendedAmount>
+                    <nam:Quantity Units="1" UnitOfMeasureCode="EA">1</nam:Quantity>
+                    <nam:Tax>
+                        <nam:Percent>25</nam:Percent>
+                    </nam:Tax>
+                </nam:Sale>
+                <nam:SequenceNumber>3</nam:SequenceNumber>
+            </nam:LineItem>
+            <nam:LineItem>
+                <nam:Sale ItemType="Stock" TaxableFlag="true" ReturnableFlag="true">
+                    <nam:POSIdentity>
+                        <nam:POSItemID>608003</nam:POSItemID>
+                    </nam:POSIdentity>
+                    <nam:POSIdentity POSIDType="mainGroup">
+                        <nam:POSItemID>040000</nam:POSItemID>
+                        <nam:Qualifier>hem</nam:Qualifier>
+                    </nam:POSIdentity>
+                    <nam:POSIdentity POSIDType="articleGroup">
+                        <nam:POSItemID>040003</nam:POSItemID>
+                        <nam:Qualifier>övrigt</nam:Qualifier>
+                    </nam:POSIdentity>
+                    <nam:Description>Plastpåse</nam:Description>
+                    <nam:ActualSalesUnitPrice Currency="SEK" Action="Add">1.50</nam:ActualSalesUnitPrice>
+                    <nam:ExtendedAmount Currency="SEK" Action="Add">1.50</nam:ExtendedAmount>
+                    <nam:Quantity Units="1" UnitOfMeasureCode="EA">1</nam:Quantity>
+                    <nam:Tax>
+                        <nam:Percent>25</nam:Percent>
+                    </nam:Tax>
+                </nam:Sale>
+                <nam:SequenceNumber>4</nam:SequenceNumber>
+            </nam:LineItem>
+            <nam:LineItem>
+                <nam:Tax>
+                    <nam:TaxableAmount Currency="SEK" TaxIncludedInTaxableAmountFlag="false">446.80</nam:TaxableAmount>
+                    <nam:Amount Currency="SEK">111.70</nam:Amount>
+                    <nam:Percent>25</nam:Percent>
+                </nam:Tax>
+                <nam:SequenceNumber>5</nam:SequenceNumber>
+            </nam:LineItem>
+            <nam:LineItem>
+                <nam:Tender TypeCode="Sale" TenderType="GiftCard">
+                    <nam:Amount Currency="SEK">503.00</nam:Amount>
+                    <nam:GiftCard>
+                        <nam:CardNumber>xxxxxxx1234</nam:CardNumber>
+                        <nam:ExpirationDate>2012-12-31</nam:ExpirationDate>
+                        <nam:CurrentBalance>503.00</nam:CurrentBalance>
+                    </nam:GiftCard>
+                </nam:Tender>
+                <nam:SequenceNumber>6</nam:SequenceNumber>
+            </nam:LineItem>
+            <nam:LineItem>
+                <nam:Tender TypeCode="Sale" TenderType="Cash">
+                    <nam:Amount Currency="SEK">55.50</nam:Amount>
+                    <nam:AmountAppliedToBill Currency="SEK">55.00</nam:AmountAppliedToBill>
+                    <nam:Rounding Currency="SEK">0.50</nam:Rounding>
+                </nam:Tender>
+                <nam:SequenceNumber>7</nam:SequenceNumber>
+            </nam:LineItem>
+            <nam:Total TotalType="TransactionNetAmount">558.50</nam:Total>
+            <nam:Total TotalType="TransactionGrandAmount" CurrencyCode="SEK">558.00</nam:Total>
+            <se:Receiver Type="NationalIdentityNumber">2210228884</se:Receiver>
+        </nam:RetailTransaction>
+        <se:HeaderText><se:Text>Öppettider: Måndag - Fredag 10-18, Lördag 10-15</se:Text></se:HeaderText>
+        <se:Issuer id="5922f97bfeb148d6b9a6ef76f76ebdce" idType="ServiceID">
+            <se:OrganisationID>1122334444</se:OrganisationID>
+        </se:Issuer>
+        <se:ReceiptCode>1281111260543493</se:ReceiptCode>
+    </nam:Transaction>
+</nam:DigitalReceipt>

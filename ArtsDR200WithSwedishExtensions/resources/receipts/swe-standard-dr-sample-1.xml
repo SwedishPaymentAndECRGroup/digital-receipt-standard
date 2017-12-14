@@ -2,19 +2,20 @@
                     xmlns:nam="http://www.nrf-arts.org/IXRetail/namespace/"
                     xmlns:se="http://www.sweretailstandard.se/schemas/namespace/se"
                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-                    xsi:schemaLocation="http://www.nrf-arts.org/IXRetail/namespace/ http://www.nrf-arts.org/IXRetail/namespace/DigitalReceiptV2.0.0.xsd http://www.sweretailstandard.se/schemas/namespace/se http://www.sweretailstandard.se/schemas/namespace/se/SweArtsDR200ExtV1.0.0.xsd">
+                    xsi:schemaLocation="http://www.nrf-arts.org/IXRetail/namespace/ http://www.nrf-arts.org/IXRetail/namespace/DigitalReceiptV2.0.0.xsd
+                    http://www.sweretailstandard.se/schemas/namespace/se http://www.sweretailstandard.se/schemas/namespace/se/SweArtsDR200ExtV1.0.0.xsd">
     <nam:Transaction>
         <nam:BusinessUnit>
-            <nam:UnitID Name="Superstore LA">LA-ST</nam:UnitID>
+            <nam:UnitID Name="My Superstore">MY-ST</nam:UnitID>
             <nam:Address>
                 <nam:AddressLine TypeCode="Street">Stortorget 278</nam:AddressLine>
-                <nam:City>111 00 </nam:City>
+                <nam:City>111 00 Köpstad</nam:City>
                 <nam:PostalCode/>
                 <nam:Country Code="SE">Sverige</nam:Country>
             </nam:Address>
             <nam:Telephone>
                 <nam:AreaCode/>
-                <nam:LocalNumber>0240-100 00</nam:LocalNumber>
+                <nam:LocalNumber>0771584886</nam:LocalNumber>
                 <nam:ITUCountryCode>46</nam:ITUCountryCode>
             </nam:Telephone>
             <nam:Website>www.superstore.com</nam:Website>
@@ -235,24 +236,8 @@
             </nam:LineItem>
             <nam:Total TotalType="TransactionNetAmount">406.30</nam:Total>
             <nam:Total TotalType="TransactionGrandAmount">508.00</nam:Total>
-            <nam:Customer>
-                <nam:CustomerID></nam:CustomerID>
-                <nam:Address>
-                    <nam:AddressLine>hej</nam:AddressLine>
-                </nam:Address>
-                <nam:TelephoneNumber>
-                    <nam:LocalNumber>+46(0)86126694</nam:LocalNumber>
-                </nam:TelephoneNumber>
-                <nam:EMail>
-                    <nam:EMailAddress>someone@email.com</nam:EMailAddress>
-                </nam:EMail>
-            </nam:Customer>
             <se:Receiver Type="NationalIdentityNumber">1111111111</se:Receiver>
             <se:Customer>
-                <nam:CustomerID></nam:CustomerID>
-                <nam:Address>
-                    <nam:AddressLine>hej</nam:AddressLine>
-                </nam:Address>
                 <nam:TelephoneNumber>
                     <nam:LocalNumber>+46(0)86126694</nam:LocalNumber>
                 </nam:TelephoneNumber>
@@ -263,10 +248,10 @@
             </se:Customer>
         </nam:RetailTransaction>
         <se:BusinessUnit>
-            <nam:UnitID Name="Superstore LA">LA-ST</nam:UnitID>
+            <nam:UnitID Name="My Superstore">MY-ST</nam:UnitID>
             <nam:Address>
                 <nam:AddressLine TypeCode="Street">Stortorget 278</nam:AddressLine>
-                <nam:City>111 00 </nam:City>
+                <nam:City>111 00 Köpstad</nam:City>
                 <nam:PostalCode/>
                 <nam:Country Code="SE">Sverige</nam:Country>
             </nam:Address>

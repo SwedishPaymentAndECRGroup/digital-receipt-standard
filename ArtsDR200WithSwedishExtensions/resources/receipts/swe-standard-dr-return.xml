@@ -1,0 +1,85 @@
+<nam:DigitalReceipt MajorVersion="6" MinorVersion="0" FixVersion="0"
+                    xmlns:nam="http://www.nrf-arts.org/IXRetail/namespace/"
+                    xmlns:se="http://www.sweretailstandard.se/schemas/namespace/se"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    xsi:schemaLocation="http://www.nrf-arts.org/IXRetail/namespace/ http://www.nrf-arts.org/IXRetail/namespace/DigitalReceiptV2.0.0.xsd
+                    http://www.sweretailstandard.se/schemas/namespace/se http://www.sweretailstandard.se/schemas/namespace/se/SweArtsDR200ExtV1.0.0.xsd">
+    <nam:Transaction>
+        <nam:BusinessUnit>
+            <nam:UnitID Name="My Superstore">RS-0221</nam:UnitID>
+            <nam:Address>
+                <nam:AddressLine TypeCode="Street">Stortorget 278</nam:AddressLine>
+                <nam:City>Köpstad</nam:City>
+                <nam:PostalCode>11100</nam:PostalCode>
+                <nam:Country Code="SE">Sverige</nam:Country>
+            </nam:Address>
+            <nam:Telephone TypeCode="Work">
+                <nam:AreaCode>0771</nam:AreaCode>
+                <nam:LocalNumber>584886</nam:LocalNumber>
+                <nam:ITUCountryCode>46</nam:ITUCountryCode>
+            </nam:Telephone>
+        </nam:BusinessUnit>
+        <nam:WorkstationID SerialNumber="EA38329" Mode="Retail" TypeCode="POS">65252</nam:WorkstationID>
+        <nam:SequenceNumber>123789798712433</nam:SequenceNumber>
+        <nam:OperatorID OperatorType="Cashier">Sara</nam:OperatorID>
+        <nam:CurrencyCode>SEK</nam:CurrencyCode>
+        <nam:TrailerText>
+            <nam:Text>Spara kvittot, gäller som garanti.</nam:Text>
+            <nam:Text>Öppet köp 30 dagar.</nam:Text>
+        </nam:TrailerText>
+        <nam:VATRegistrationNumber>SE11223344449</nam:VATRegistrationNumber>
+        <nam:ReceiptDateTime>2017-12-05T21:52:33+01:00</nam:ReceiptDateTime>
+        <nam:ReceiptNumber TypeCode="Interleaved2Of5">02890093684021</nam:ReceiptNumber>
+        <nam:RetailTransaction>
+            <nam:ItemCount>3</nam:ItemCount>
+            <nam:LineItem>
+                <nam:Return>
+                    <nam:POSIdentity>
+                        <nam:POSItemID>923048</nam:POSItemID>
+                    </nam:POSIdentity>
+                    <nam:Description>Headset hörlurar - SLR</nam:Description>
+                    <nam:UnitCostPrice Currency="SEK" Quantity="1" UnitOfMeasureCode="EA">49.00</nam:UnitCostPrice>
+                    <nam:ActualSalesUnitPrice Currency="SEK">49.00</nam:ActualSalesUnitPrice>
+                    <nam:ExtendedAmount Currency="SEK">49.00</nam:ExtendedAmount>
+                    <nam:Quantity Units="1" UnitOfMeasureCode="EA">1</nam:Quantity>
+                    <nam:Tax>
+                        <nam:Percent>25</nam:Percent>
+                    </nam:Tax>
+                    <nam:TransactionLink>
+                        <nam:TransactionID>cd5d49f0-56e8-11e1-b86c-0800200c9a66</nam:TransactionID>
+                    </nam:TransactionLink>
+                    <se:ReceiptCodeLink>1281111260543493</se:ReceiptCodeLink>
+                    <nam:Reason>NA</nam:Reason>
+                </nam:Return>
+                <nam:SequenceNumber>1</nam:SequenceNumber>
+            </nam:LineItem>
+            <nam:LineItem>
+                <nam:Tax>
+                    <nam:TaxableAmount Currency="SEK" TaxIncludedInTaxableAmountFlag="false">39.20</nam:TaxableAmount>
+                    <nam:Amount Currency="SEK">9.80</nam:Amount>
+                    <nam:Percent>25</nam:Percent>
+                </nam:Tax>
+                <nam:SequenceNumber>2</nam:SequenceNumber>
+            </nam:LineItem>
+            <nam:LineItem>
+                <nam:Tender TypeCode="Refund" TenderType="Cash">
+                    <nam:Amount Currency="SEK">49.00</nam:Amount>
+                    <se:Text>Åter</se:Text>
+                </nam:Tender>
+                <nam:SequenceNumber>3</nam:SequenceNumber>
+            </nam:LineItem>
+            <nam:Total TotalType="TransactionGrandAmount" TypeCode="Return">49.00</nam:Total>
+            <nam:Customer>
+            	<nam:TelephoneNumber>
+            		<nam:AreaCode>0771</nam:AreaCode>
+            		<nam:LocalNumber>11223344</nam:LocalNumber>
+            	</nam:TelephoneNumber>
+            </nam:Customer>
+            <se:Receiver Type="NationalIdentityNumber">2210228884</se:Receiver>
+        </nam:RetailTransaction>
+        <se:Issuer id="5922f97bfeb148d6b9a6ef76f76ebdce" idType="ServiceID">
+            <se:OrganisationID>1122334444</se:OrganisationID>
+        </se:Issuer>
+        <se:ReceiptCode>1202151240570529</se:ReceiptCode>
+    </nam:Transaction>
+</nam:DigitalReceipt>
