@@ -1,10 +1,11 @@
-<nam:DigitalReceipt MajorVersion="6" MinorVersion="0" FixVersion="0" se:copy="true"
+<?xml version="1.0" encoding="utf-8"?>
+<nam:DigitalReceipt MajorVersion="6" MinorVersion="0" FixVersion="0"
                     xmlns:nam="http://www.nrf-arts.org/IXRetail/namespace/"
                     xmlns:se="http://www.sweretailstandard.se/schemas/namespace/se"
                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                     xsi:schemaLocation="http://www.nrf-arts.org/IXRetail/namespace/ http://www.nrf-arts.org/IXRetail/namespace/DigitalReceiptV2.0.0.xsd
-                    http://www.sweretailstandard.se/schemas/namespace/se http://www.sweretailstandard.se/schemas/namespace/se/SweArtsDR200ExtV1.0.0.xsd">
-    <nam:Transaction>
+                http://www.sweretailstandard.se/schemas/namespace/se http://www.sweretailstandard.se/schemas/namespace/se/SweArtsDR200ExtV1.0.0.xsd">
+    <nam:Transaction se:copy="true">
         <nam:BusinessUnit>
             <nam:UnitID Name="My Superstore">MY-ST</nam:UnitID>
             <nam:Address>
@@ -247,23 +248,19 @@
                 <se:serviceid>123</se:serviceid>
             </se:Customer>
         </nam:RetailTransaction>
+        <!-- 2 Alternative ways of identifying the receipt issuer -->
+        <!-- First an extension of ARTS BusinessUnit element -->
         <se:BusinessUnit>
             <nam:UnitID Name="My Superstore">MY-ST</nam:UnitID>
-            <nam:Address>
-                <nam:AddressLine TypeCode="Street">Stortorget 278</nam:AddressLine>
-                <nam:City>111 00 Köpstad</nam:City>
-                <nam:PostalCode/>
-                <nam:Country Code="SE">Sverige</nam:Country>
-            </nam:Address>
             <nam:Telephone>
-                <nam:AreaCode/>
-                <nam:LocalNumber>0240-100 00</nam:LocalNumber>
+                <nam:LocalNumber>0771584886</nam:LocalNumber>
                 <nam:ITUCountryCode>46</nam:ITUCountryCode>
             </nam:Telephone>
             <nam:Website>www.mystore.com</nam:Website>
             <se:OrganisationID>9999999999</se:OrganisationID>
             <se:ServiceID>5922f97bfeb148d6b9a6ef76f76ebdce</se:ServiceID>
         </se:BusinessUnit>
+        <!-- Second, a new element Issuer -->
         <se:Issuer id="5922f97bfeb148d6b9a6ef76f76ebdce" idType="ServiceID">
             <se:OrganisationID>9999999999</se:OrganisationID>
         </se:Issuer>

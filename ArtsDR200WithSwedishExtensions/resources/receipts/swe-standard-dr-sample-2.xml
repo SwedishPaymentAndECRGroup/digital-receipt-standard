@@ -1,653 +1,653 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DigitalReceipt MajorVersion="6" MinorVersion="0" FixVersion="0" se:copy="true"
-                      xmlns="http://www.nrf-arts.org/IXRetail/namespace/"
-                      xmlns:se="http://www.sweretailstandard.se/schemas/namespace/se"
-                      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-                      xsi:schemaLocation="http://www.nrf-arts.org/IXRetail/namespace/ http://www.nrf-arts.org/IXRetail/namespace/DigitalReceiptV2.0.0.xsd
+                xmlns="http://www.nrf-arts.org/IXRetail/namespace/"
+                xmlns:se="http://www.sweretailstandard.se/schemas/namespace/se"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                xsi:schemaLocation="http://www.nrf-arts.org/IXRetail/namespace/ http://www.nrf-arts.org/IXRetail/namespace/DigitalReceiptV2.0.0.xsd
                       http://www.sweretailstandard.se/schemas/namespace/se http://www.sweretailstandard.se/schemas/namespace/se/SweArtsDR200ExtV1.0.0.xsd">
-  <Transaction>
-    <BusinessUnit>
-      <UnitID>276992</UnitID>
-    </BusinessUnit>
-    <WorkstationID TypeCode="POS" Mode="Retail">2</WorkstationID>
-    <SequenceNumber>12201</SequenceNumber>
-    <OperatorID OperatorType="Cashier">238</OperatorID>
-    <CurrencyCode>SEK</CurrencyCode>
-    <ReceiptDateTime>2016-05-29T13:53:12</ReceiptDateTime>
-    <ReceiptNumber TypeCode="Interleaved2Of5">1605290027699250054002012</ReceiptNumber>
-    <ReceiptImage>
-      <ReceiptLine></ReceiptLine>
-      <ReceiptLine>          VÄLKOMMEN TILL</ReceiptLine>
-      <ReceiptLine>          MY SUPERMARKET</ReceiptLine>
-      <ReceiptLine>          Tel.nr: 0771584886</ReceiptLine>
-      <ReceiptLine>------------------------------------------</ReceiptLine>
-      <ReceiptLine>Kvitto: 02-12201       2016-05-29 13:54:14</ReceiptLine>
-      <ReceiptLine>Kassör: 238-Justine</ReceiptLine>
-      <ReceiptLine>Org Nr: 556838-8200 kr</ReceiptLine>
-      <ReceiptLine>------------------------------------------</ReceiptLine>
-      <ReceiptLine></ReceiptLine>
-      <ReceiptLine>APELSINER           12.82</ReceiptLine>
-      <ReceiptLine>  1.295 kg x 9.90 kr/kg</ReceiptLine>
-      <ReceiptLine>BANANER             9.26</ReceiptLine>
-      <ReceiptLine>  0.935 kg x 9.90 kr/kg</ReceiptLine>
-      <ReceiptLine>COCA COLA           14.90</ReceiptLine>
-      <ReceiptLine>  PANT 1KR PET T.O.M 1.00</ReceiptLine>
-      <ReceiptLine>FALCON BAYERSK 2,8  112.00</ReceiptLine>
-      <ReceiptLine>  4 st x 28.00</ReceiptLine>
-      <ReceiptLine>  PANT 6KR BURK 6X1KR 24.00</ReceiptLine>
-      <ReceiptLine>      4st x 6.00</ReceiptLine>
-      <ReceiptLine>NATURGODIS          64.22</ReceiptLine>
-      <ReceiptLine>  0.380 kg x 169.00 kr/kg</ReceiptLine>
-      <ReceiptLine>NUGGETS             109.90</ReceiptLine>
-      <ReceiptLine>PAPRIKA MIX 400G    24.90</ReceiptLine>
-      <ReceiptLine>REAL MAYONNAISE     Kampanj 25.90</ReceiptLine>
-      <ReceiptLine>RIVEN OST           59.80</ReceiptLine>
-      <ReceiptLine>  2 st x 29.90</ReceiptLine>
-      <ReceiptLine>RÖSTIKO ROUNDS      39.90</ReceiptLine>
-      <ReceiptLine>SALLAD ISBERG       5.55</ReceiptLine>
-      <ReceiptLine>  0.380 kg x 14.60 kr/kg</ReceiptLine>
-      <ReceiptLine>STORE LOMPER 10ST   13.80</ReceiptLine>
-      <ReceiptLine>  2 st x 6.90</ReceiptLine>
-      <ReceiptLine>TOMAT BABYPLOMMON   9.90</ReceiptLine>
-      <ReceiptLine>TRADIZIONALE DIAVL  29.90</ReceiptLine>
-      <ReceiptLine>TRADIZIONALE SPECI  29.90</ReceiptLine>
-      <ReceiptLine>TRADIZIONNALE MOZZ  29.90</ReceiptLine>
-      <ReceiptLine>YTTERLÅR I BIT      71.02</ReceiptLine>
-      <ReceiptLine>  0.790 kg x 89.90 kr/kg</ReceiptLine>
-      <ReceiptLine>ÄGG 20-PACK         31.90</ReceiptLine>
-      <ReceiptLine>RABATTER</ReceiptLine>
-      <ReceiptLine>Lomper 2 för 10:- -3.80</ReceiptLine>
-      <ReceiptLine></ReceiptLine>
-      <ReceiptLine>2,8% 2 för 49,90 -6.10</ReceiptLine>
-      <ReceiptLine></ReceiptLine>
-      <ReceiptLine>2,8% 2 för 49,90 -6.10</ReceiptLine>
-      <ReceiptLine> </ReceiptLine>
-      <ReceiptLine> ===========</ReceiptLine>
-      <ReceiptLine>  SUMMERING RABATTER DETTA KÖP 16.00</ReceiptLine>
-      <ReceiptLine> ===========</ReceiptLine>
-      <ReceiptLine>  ATT BETALA SEK ( 23 ARTIKLAR ) 704.47</ReceiptLine>
-      <ReceiptLine></ReceiptLine>
-      <ReceiptLine> </ReceiptLine>
-      <ReceiptLine>  TILLBAKA SEK 0.00</ReceiptLine>
-      <ReceiptLine> </ReceiptLine>
-      <ReceiptLine> </ReceiptLine>
-      <ReceiptLine>  KORTKÖP 704.47</ReceiptLine>
-      <ReceiptLine>  - - - - - - - - - - - - - - - - - - - -</ReceiptLine>
-      <ReceiptLine>  Transtid:      2016-05-29 13:55:04</ReceiptLine>
-      <ReceiptLine>  Kortnummer:    ************4044</ReceiptLine>
-      <ReceiptLine>  VISA CARD</ReceiptLine>
-      <ReceiptLine>  Personlig kod</ReceiptLine>
-      <ReceiptLine>  Belastat bankkonto</ReceiptLine>
-      <ReceiptLine>  Belopp:        SEK 704.47</ReceiptLine>
-      <ReceiptLine>  Butiks-ID:     30670079</ReceiptLine>
-      <ReceiptLine>  Referensnr:    795482 986316  IB1</ReceiptLine>
-      <ReceiptLine>  Terminal-ID:   13532818-461473</ReceiptLine>
-      <ReceiptLine>  DA0  ___ Visa </ReceiptLine>
-      <ReceiptLine></ReceiptLine>
-      <ReceiptLine>  AID:           A0000000031010</ReceiptLine>
-      <ReceiptLine>  TVR:           0000001000</ReceiptLine>
-      <ReceiptLine>  TSI:           F800</ReceiptLine>
-      <ReceiptLine>      BELOPP  GODKÄNT AV KUND</ReceiptLine>
-      <ReceiptLine>      SPARA KVITTOT, KUNDENS EXEMPLAR</ReceiptLine>
-      <ReceiptLine>  - - - - - - - - - - - - - - - - - - - -</ReceiptLine>
-      <ReceiptLine></ReceiptLine>
-      <ReceiptLine> </ReceiptLine>
-      <ReceiptLine></ReceiptLine>
-      <ReceiptLine>  Moms    Belopp        Netto       Brutto</ReceiptLine>
-      <ReceiptLine>  12%      75.48       628.99       704.47</ReceiptLine>
-      <ReceiptLine></ReceiptLine>
-      <ReceiptLine>           ORG.NR 556838-8200</ReceiptLine>
-      <ReceiptLine>                    *</ReceiptLine>
-      <ReceiptLine>         www.mysupermarket.se</ReceiptLine>
-      <ReceiptLine>                    *</ReceiptLine>
-      <ReceiptLine>      ** TACK OCH VÄLKOMMEN ÅTER **</ReceiptLine>
-      <ReceiptLine></ReceiptLine>
-      <ReceiptLine></ReceiptLine>
-      <ReceiptLine>9400276992002001220120160529</ReceiptLine>
-      <ReceiptLine></ReceiptLine>
-    </ReceiptImage>
-    <RetailTransaction>
-      <LineItem CancelFlag="false">
-        <Sale ItemSubType="Normal" ItemType="Stock">
-          <POSIdentity POSIDType="GTIN">
-            <POSItemID>2317438900009</POSItemID>
-          </POSIdentity>
-          <POSIdentity POSIDType="RSID">
-            <POSItemID>4246</POSItemID>
-          </POSIdentity>
-          <MerchandiseHierarchy Level="Group">455</MerchandiseHierarchy>
-          <Description>APELSINER</Description>
-          <UnitCostPrice>10.20000</UnitCostPrice>
-          <ExtendedAmount>12.82000</ExtendedAmount>
-          <Quantity Units="1.00" UnitOfMeasureCode="KGM">1.29500</Quantity>
-          <Tax TaxSubType="Standard">
-            <Amount>1.37357</Amount>
-            <Percent>12.00</Percent>
-          </Tax>
-        </Sale>
-        <SequenceNumber>1</SequenceNumber>
-      </LineItem>
-      <LineItem CancelFlag="false">
-        <Sale ItemSubType="Normal" ItemType="Stock">
-          <POSIdentity POSIDType="GTIN">
-            <POSItemID>2317401100009</POSItemID>
-          </POSIdentity>
-          <POSIdentity POSIDType="RSID">
-            <POSItemID>4205</POSItemID>
-          </POSIdentity>
-          <MerchandiseHierarchy Level="Group">455</MerchandiseHierarchy>
-          <Description>BANANER</Description>
-          <UnitCostPrice>10.90000</UnitCostPrice>
-          <ExtendedAmount>9.26000</ExtendedAmount>
-          <Quantity Units="1.00" UnitOfMeasureCode="KGM">0.93500</Quantity>
-          <Tax TaxSubType="Standard">
-            <Amount>0.99214</Amount>
-            <Percent>12.00</Percent>
-          </Tax>
-        </Sale>
-        <SequenceNumber>2</SequenceNumber>
-      </LineItem>
-      <LineItem CancelFlag="false">
-        <Sale ItemSubType="Normal" ItemType="Stock">
-          <POSIdentity POSIDType="GTIN">
-            <POSItemID>7055450010287</POSItemID>
-          </POSIdentity>
-          <POSIdentity POSIDType="RSID">
-            <POSItemID>53339</POSItemID>
-          </POSIdentity>
-          <MerchandiseHierarchy Level="Group">245</MerchandiseHierarchy>
-          <Description>STORE LOMPER 10ST</Description>
-          <UnitCostPrice>10.71000</UnitCostPrice>
-          <ExtendedAmount>5.00000</ExtendedAmount>
-          <Quantity Units="1.00" UnitOfMeasureCode="EA">1.00000</Quantity>
-          <RetailPriceModifier MethodCode="Promotion">
-            <SequenceNumber>1</SequenceNumber>
-            <Amount Action="Subtract">1.90000</Amount>
-            <PromotionID>20162120</PromotionID>
-            <Description>Lomper 2 för 10:-</Description>
-          </RetailPriceModifier>
-          <Tax TaxSubType="Standard">
-            <Amount>0.53571</Amount>
-            <Percent>12.00</Percent>
-          </Tax>
-        </Sale>
-        <SequenceNumber>3</SequenceNumber>
-      </LineItem>
-      <LineItem CancelFlag="false">
-        <Sale ItemSubType="Normal" ItemType="Stock">
-          <POSIdentity POSIDType="GTIN">
-            <POSItemID>7055450010287</POSItemID>
-          </POSIdentity>
-          <POSIdentity POSIDType="RSID">
-            <POSItemID>53339</POSItemID>
-          </POSIdentity>
-          <MerchandiseHierarchy Level="Group">245</MerchandiseHierarchy>
-          <Description>STORE LOMPER 10ST</Description>
-          <UnitCostPrice>10.71000</UnitCostPrice>
-          <ExtendedAmount>5.00000</ExtendedAmount>
-          <Quantity Units="1.00" UnitOfMeasureCode="EA">1.00000</Quantity>
-          <RetailPriceModifier MethodCode="Promotion">
-            <SequenceNumber>1</SequenceNumber>
-            <Amount Action="Subtract">1.90000</Amount>
-            <PromotionID>20162120</PromotionID>
-            <Description>Lomper 2 för 10:-</Description>
-          </RetailPriceModifier>
-          <Tax TaxSubType="Standard">
-            <Amount>0.53571</Amount>
-            <Percent>12.00</Percent>
-          </Tax>
-        </Sale>
-        <SequenceNumber>4</SequenceNumber>
-      </LineItem>
-      <LineItem CancelFlag="false">
-        <Discount>
-          <SequenceNumber>1</SequenceNumber>
-          <Amount Action="Subtract">3.80000</Amount>
-          <PromotionID TypeCode="SomeExt:RSNo">20162120</PromotionID>
-          <Description>Lomper 2 för 10:-</Description>
-          <ItemLink>3</ItemLink>
-          <ItemLink>4</ItemLink>
-        </Discount>
-        <SequenceNumber>5</SequenceNumber>
-      </LineItem>
-      <LineItem CancelFlag="false">
-        <Sale ItemSubType="Normal" ItemType="Stock">
-          <POSIdentity POSIDType="GTIN">
-            <POSItemID>3123</POSItemID>
-          </POSIdentity>
-          <POSIdentity POSIDType="RSID">
-            <POSItemID>289</POSItemID>
-          </POSIdentity>
-          <MerchandiseHierarchy Level="Group">123</MerchandiseHierarchy>
-          <Description>ÄGG 20-PACK</Description>
-          <UnitCostPrice>20.99000</UnitCostPrice>
-          <ExtendedAmount>31.90000</ExtendedAmount>
-          <Quantity Units="1.00" UnitOfMeasureCode="EA">1.00000</Quantity>
-          <Tax TaxSubType="Standard">
-            <Amount>3.41786</Amount>
-            <Percent>12.00</Percent>
-          </Tax>
-        </Sale>
-        <SequenceNumber>6</SequenceNumber>
-      </LineItem>
-      <LineItem CancelFlag="false">
-        <Sale ItemSubType="Normal" ItemType="Stock">
-          <POSIdentity POSIDType="GTIN">
-            <POSItemID>4001724002819</POSItemID>
-          </POSIdentity>
-          <POSIdentity POSIDType="RSID">
-            <POSItemID>32289</POSItemID>
-          </POSIdentity>
-          <MerchandiseHierarchy Level="Group">726</MerchandiseHierarchy>
-          <Description>TRADIZIONALE DIAVLO</Description>
-          <UnitCostPrice>19.85000</UnitCostPrice>
-          <ExtendedAmount>29.90000</ExtendedAmount>
-          <Quantity Units="1.00" UnitOfMeasureCode="EA">1.00000</Quantity>
-          <Tax TaxSubType="Standard">
-            <Amount>3.20357</Amount>
-            <Percent>12.00</Percent>
-          </Tax>
-        </Sale>
-        <SequenceNumber>7</SequenceNumber>
-      </LineItem>
-      <LineItem CancelFlag="false">
-        <Sale ItemSubType="Normal" ItemType="Stock">
-          <POSIdentity POSIDType="GTIN">
-            <POSItemID>4001724019893</POSItemID>
-          </POSIdentity>
-          <POSIdentity POSIDType="RSID">
-            <POSItemID>63980</POSItemID>
-          </POSIdentity>
-          <MerchandiseHierarchy Level="Group">726</MerchandiseHierarchy>
-          <Description>TRADIZIONNALE MOZZAR</Description>
-          <UnitCostPrice>20.87000</UnitCostPrice>
-          <ExtendedAmount>29.90000</ExtendedAmount>
-          <Quantity Units="1.00" UnitOfMeasureCode="EA">1.00000</Quantity>
-          <Tax TaxSubType="Standard">
-            <Amount>3.20357</Amount>
-            <Percent>12.00</Percent>
-          </Tax>
-        </Sale>
-        <SequenceNumber>8</SequenceNumber>
-      </LineItem>
-      <LineItem CancelFlag="false">
-        <Sale ItemSubType="Normal" ItemType="Stock">
-          <POSIdentity POSIDType="GTIN">
-            <POSItemID>4001724002758</POSItemID>
-          </POSIdentity>
-          <POSIdentity POSIDType="RSID">
-            <POSItemID>32287</POSItemID>
-          </POSIdentity>
-          <MerchandiseHierarchy Level="Group">726</MerchandiseHierarchy>
-          <Description>TRADIZIONALE SPECIA</Description>
-          <UnitCostPrice>19.85000</UnitCostPrice>
-          <ExtendedAmount>29.90000</ExtendedAmount>
-          <Quantity Units="1.00" UnitOfMeasureCode="EA">1.00000</Quantity>
-          <Tax TaxSubType="Standard">
-            <Amount>3.20357</Amount>
-            <Percent>12.00</Percent>
-          </Tax>
-        </Sale>
-        <SequenceNumber>9</SequenceNumber>
-      </LineItem>
-      <LineItem CancelFlag="false">
-        <Sale ItemSubType="Normal" ItemType="Stock">
-          <POSIdentity POSIDType="GTIN">
-            <POSItemID>7340011300021</POSItemID>
-          </POSIdentity>
-          <POSIdentity POSIDType="RSID">
-            <POSItemID>38308</POSItemID>
-          </POSIdentity>
-          <MerchandiseHierarchy Level="Group">155</MerchandiseHierarchy>
-          <Description>RIVEN OST</Description>
-          <UnitCostPrice>14.84000</UnitCostPrice>
-          <ExtendedAmount>29.90000</ExtendedAmount>
-          <Quantity Units="1.00" UnitOfMeasureCode="EA">1.00000</Quantity>
-          <Tax TaxSubType="Standard">
-            <Amount>3.20357</Amount>
-            <Percent>12.00</Percent>
-          </Tax>
-        </Sale>
-        <SequenceNumber>10</SequenceNumber>
-      </LineItem>
-      <LineItem CancelFlag="false">
-        <Sale ItemSubType="Normal" ItemType="Stock">
-          <POSIdentity POSIDType="GTIN">
-            <POSItemID>8710449002238</POSItemID>
-          </POSIdentity>
-          <POSIdentity POSIDType="RSID">
-            <POSItemID>20718</POSItemID>
-          </POSIdentity>
-          <MerchandiseHierarchy Level="Group">715</MerchandiseHierarchy>
-          <Description>RÖSTIKO ROUNDS</Description>
-          <UnitCostPrice>25.25000</UnitCostPrice>
-          <ExtendedAmount>39.90000</ExtendedAmount>
-          <Quantity Units="1.00" UnitOfMeasureCode="EA">1.00000</Quantity>
-          <Tax TaxSubType="Standard">
-            <Amount>4.27500</Amount>
-            <Percent>12.00</Percent>
-          </Tax>
-        </Sale>
-        <SequenceNumber>11</SequenceNumber>
-      </LineItem>
-      <LineItem CancelFlag="false">
-        <Sale ItemSubType="Normal" ItemType="Stock">
-          <POSIdentity POSIDType="GTIN">
-            <POSItemID>3700344600535</POSItemID>
-          </POSIdentity>
-          <POSIdentity POSIDType="RSID">
-            <POSItemID>32251</POSItemID>
-          </POSIdentity>
-          <MerchandiseHierarchy Level="Group">450</MerchandiseHierarchy>
-          <Description>TOMAT BABYPLOMMON</Description>
-          <UnitCostPrice>5.85000</UnitCostPrice>
-          <ExtendedAmount>9.90000</ExtendedAmount>
-          <Quantity Units="1.00" UnitOfMeasureCode="EA">1.00000</Quantity>
-          <Tax TaxSubType="Standard">
-            <Amount>1.06071</Amount>
-            <Percent>12.00</Percent>
-          </Tax>
-        </Sale>
-        <SequenceNumber>12</SequenceNumber>
-      </LineItem>
-      <LineItem CancelFlag="false">
-        <Sale ItemSubType="Normal" ItemType="Stock">
-          <POSIdentity POSIDType="GTIN">
-            <POSItemID>7300170047113</POSItemID>
-          </POSIdentity>
-          <POSIdentity POSIDType="RSID">
-            <POSItemID>10412</POSItemID>
-          </POSIdentity>
-          <MerchandiseHierarchy Level="Group">450</MerchandiseHierarchy>
-          <Description>PAPRIKA MIX 400G</Description>
-          <UnitCostPrice>13.00000</UnitCostPrice>
-          <ExtendedAmount>24.90000</ExtendedAmount>
-          <Quantity Units="1.00" UnitOfMeasureCode="EA">1.00000</Quantity>
-          <Tax TaxSubType="Standard">
-            <Amount>2.66786</Amount>
-            <Percent>12.00</Percent>
-          </Tax>
-        </Sale>
-        <SequenceNumber>13</SequenceNumber>
-      </LineItem>
-      <LineItem CancelFlag="false">
-        <Sale ItemSubType="Normal" ItemType="Stock">
-          <POSIdentity POSIDType="GTIN">
-            <POSItemID>4061</POSItemID>
-          </POSIdentity>
-          <POSIdentity POSIDType="RSID">
-            <POSItemID>4217</POSItemID>
-          </POSIdentity>
-          <MerchandiseHierarchy Level="Group">450</MerchandiseHierarchy>
-          <Description>SALLAD ISBERG</Description>
-          <UnitCostPrice>8.50000</UnitCostPrice>
-          <ExtendedAmount>5.55000</ExtendedAmount>
-          <Quantity Units="1.00" UnitOfMeasureCode="KGM">0.38000</Quantity>
-          <Tax TaxSubType="Standard">
-            <Amount>0.59464</Amount>
-            <Percent>12.00</Percent>
-          </Tax>
-        </Sale>
-        <SequenceNumber>14</SequenceNumber>
-      </LineItem>
-      <LineItem CancelFlag="false">
-        <Sale ItemSubType="Normal" ItemType="Stock">
-          <POSIdentity POSIDType="GTIN">
-            <POSItemID>2000650300008</POSItemID>
-          </POSIdentity>
-          <POSIdentity POSIDType="RSID">
-            <POSItemID>2395</POSItemID>
-          </POSIdentity>
-          <MerchandiseHierarchy Level="Group">250</MerchandiseHierarchy>
-          <Description>YTTERLÅR I BIT</Description>
-          <UnitCostPrice>66.75000</UnitCostPrice>
-          <ExtendedAmount>71.02000</ExtendedAmount>
-          <Quantity Units="1.00" UnitOfMeasureCode="KGM">0.79000</Quantity>
-          <Tax TaxSubType="Standard">
-            <Amount>7.60929</Amount>
-            <Percent>12.00</Percent>
-          </Tax>
-        </Sale>
-        <SequenceNumber>15</SequenceNumber>
-      </LineItem>
-      <LineItem CancelFlag="false">
-        <Sale ItemSubType="Normal" ItemType="Stock">
-          <POSIdentity POSIDType="GTIN">
-            <POSItemID>5789000019704</POSItemID>
-          </POSIdentity>
-          <POSIdentity POSIDType="RSID">
-            <POSItemID>8816</POSItemID>
-          </POSIdentity>
-          <MerchandiseHierarchy Level="Group">742</MerchandiseHierarchy>
-          <Description>NUGGETS</Description>
-          <UnitCostPrice>74.35000</UnitCostPrice>
-          <ExtendedAmount>109.90000</ExtendedAmount>
-          <Quantity Units="1.00" UnitOfMeasureCode="EA">1.00000</Quantity>
-          <Tax TaxSubType="Standard">
-            <Amount>11.77500</Amount>
-            <Percent>12.00</Percent>
-          </Tax>
-        </Sale>
-        <SequenceNumber>16</SequenceNumber>
-      </LineItem>
-      <LineItem CancelFlag="false">
-        <Sale ItemSubType="Normal" ItemType="Stock">
-          <POSIdentity POSIDType="GTIN">
-            <POSItemID>5000184321064</POSItemID>
-          </POSIdentity>
-          <POSIdentity POSIDType="RSID">
-            <POSItemID>7311</POSItemID>
-          </POSIdentity>
-          <MerchandiseHierarchy Level="Group">622</MerchandiseHierarchy>
-          <Description>REAL MAYONNAISE</Description>
-          <UnitCostPrice>12.85000</UnitCostPrice>
-          <ExtendedAmount>25.90000</ExtendedAmount>
-          <Quantity Units="1.00" UnitOfMeasureCode="EA">1.00000</Quantity>
-          <RetailPriceModifier MethodCode="Promotion">
-            <SequenceNumber>1</SequenceNumber>
-            <Amount Action="Subtract">4.00000</Amount>
-            <Description>Campaign price</Description>
-          </RetailPriceModifier>
-          <Tax TaxSubType="Standard">
-            <Amount>2.77500</Amount>
-            <Percent>12.00</Percent>
-          </Tax>
-        </Sale>
-        <SequenceNumber>17</SequenceNumber>
-      </LineItem>
-      <LineItem CancelFlag="false">
-        <Sale ItemSubType="Normal" ItemType="Stock">
-          <POSIdentity POSIDType="GTIN">
-            <POSItemID>7340011300021</POSItemID>
-          </POSIdentity>
-          <POSIdentity POSIDType="RSID">
-            <POSItemID>38308</POSItemID>
-          </POSIdentity>
-          <MerchandiseHierarchy Level="Group">155</MerchandiseHierarchy>
-          <Description>RIVEN OST</Description>
-          <UnitCostPrice>14.84000</UnitCostPrice>
-          <ExtendedAmount>29.90000</ExtendedAmount>
-          <Quantity Units="1.00" UnitOfMeasureCode="EA">1.00000</Quantity>
-          <Tax TaxSubType="Standard">
-            <Amount>3.20357</Amount>
-            <Percent>12.00</Percent>
-          </Tax>
-        </Sale>
-        <SequenceNumber>18</SequenceNumber>
-      </LineItem>
-      <LineItem CancelFlag="false">
-        <Sale ItemSubType="Normal" ItemType="Stock">
-          <POSIdentity POSIDType="GTIN">
-            <POSItemID>595</POSItemID>
-          </POSIdentity>
-          <POSIdentity POSIDType="RSID">
-            <POSItemID>313</POSItemID>
-          </POSIdentity>
-          <MerchandiseHierarchy Level="Group">565</MerchandiseHierarchy>
-          <Description>NATURGODIS</Description>
-          <UnitCostPrice>89.00000</UnitCostPrice>
-          <ExtendedAmount>64.22000</ExtendedAmount>
-          <Quantity Units="1.00" UnitOfMeasureCode="KGM">0.38000</Quantity>
-          <Tax TaxSubType="Standard">
-            <Amount>6.88071</Amount>
-            <Percent>12.00</Percent>
-          </Tax>
-        </Sale>
-        <SequenceNumber>19</SequenceNumber>
-      </LineItem>
-      <LineItem CancelFlag="false">
-        <Sale ItemSubType="Normal" ItemType="Stock">
-          <POSIdentity POSIDType="GTIN">
-            <POSItemID>73513513</POSItemID>
-          </POSIdentity>
-          <POSIdentity POSIDType="RSID">
-            <POSItemID>674</POSItemID>
-          </POSIdentity>
-          <MerchandiseHierarchy Level="Group">520</MerchandiseHierarchy>
-          <Description>COCA COLA</Description>
-          <UnitCostPrice>7.97000</UnitCostPrice>
-          <ExtendedAmount>15.90000</ExtendedAmount>
-          <Quantity Units="1.00" UnitOfMeasureCode="EA">1.00000</Quantity>
-          <Tax TaxSubType="Standard">
-            <Amount>1.70357</Amount>
-            <Percent>12.00</Percent>
-          </Tax>
-          <se:RecyclingAmount>1.00000</se:RecyclingAmount>
-        </Sale>
-        <SequenceNumber>20</SequenceNumber>
-      </LineItem>
-      <LineItem CancelFlag="false">
-        <Sale ItemSubType="Normal" ItemType="Deposit">
-          <POSIdentity POSIDType="GTIN">
-            <POSItemID>7300170026033</POSItemID>
-          </POSIdentity>
-          <POSIdentity POSIDType="RSID">
-            <POSItemID>48</POSItemID>
-          </POSIdentity>
-          <MerchandiseHierarchy Level="Group">500</MerchandiseHierarchy>
-          <Description>PANT 1KR PET T.O.M</Description>
-          <UnitCostPrice>0.89000</UnitCostPrice>
-          <ExtendedAmount>1.00000</ExtendedAmount>
-          <Quantity Units="1.00">1.00000</Quantity>
-          <ItemLink>20</ItemLink>
-        </Sale>
-        <SequenceNumber>21</SequenceNumber>
-      </LineItem>
-      <LineItem CancelFlag="false">
-        <Sale ItemSubType="Normal" ItemType="Stock">
-          <POSIdentity POSIDType="GTIN">
-            <POSItemID>7310072766203</POSItemID>
-          </POSIdentity>
-          <POSIdentity POSIDType="RSID">
-            <POSItemID>10740</POSItemID>
-          </POSIdentity>
-          <MerchandiseHierarchy Level="Group">510</MerchandiseHierarchy>
-          <Description>FALCON BAYERSK 2,8</Description>
-          <UnitCostPrice>17.50000</UnitCostPrice>
-          <ExtendedAmount>123.80000</ExtendedAmount>
-          <Quantity Units="1.00" UnitOfMeasureCode="EA">4.00000</Quantity>
-          <RetailPriceModifier MethodCode="Promotion">
-            <SequenceNumber>1</SequenceNumber>
-            <Amount Action="Subtract">6.10000</Amount>
-            <PromotionID>20142124</PromotionID>
-            <Description>2,8% 2 för 49,90</Description>
-          </RetailPriceModifier>
-          <RetailPriceModifier MethodCode="Promotion">
-            <SequenceNumber>2</SequenceNumber>
-            <Amount Action="Subtract">6.10000</Amount>
-            <PromotionID>20142124</PromotionID>
-            <Description>2,8% 2 för 49,90</Description>
-          </RetailPriceModifier>
-          <Tax TaxSubType="Standard">
-            <Amount>13.26429</Amount>
-            <Percent>12.00</Percent>
-          </Tax>
-          <se:RecyclingAmount>24.00000</se:RecyclingAmount>
-        </Sale>
-        <SequenceNumber>22</SequenceNumber>
-      </LineItem>
-      <LineItem CancelFlag="false">
-        <Sale ItemSubType="Normal" ItemType="Deposit">
-          <POSIdentity POSIDType="GTIN">
-            <POSItemID>7300170026521</POSItemID>
-          </POSIdentity>
-          <POSIdentity POSIDType="RSID">
-            <POSItemID>61</POSItemID>
-          </POSIdentity>
-          <MerchandiseHierarchy Level="Group">500</MerchandiseHierarchy>
-          <Description>PANT 6KR BURK 6X1KR</Description>
-          <UnitCostPrice>5.34000</UnitCostPrice>
-          <ExtendedAmount>24.00000</ExtendedAmount>
-          <Quantity Units="1.00">4.00000</Quantity>
-          <ItemLink>22</ItemLink>
-        </Sale>
-        <SequenceNumber>23</SequenceNumber>
-      </LineItem>
-      <LineItem CancelFlag="false">
-        <Discount>
-          <SequenceNumber>1</SequenceNumber>
-          <Amount Action="Subtract">6.10000</Amount>
-          <PromotionID TypeCode="SomeExt:RSNo">20142124</PromotionID>
-          <Description>2,8% 2 för 49,90</Description>
-          <ItemLink>22</ItemLink>
-        </Discount>
-        <SequenceNumber>24</SequenceNumber>
-      </LineItem>
-      <LineItem CancelFlag="false">
-        <Discount>
-          <SequenceNumber>1</SequenceNumber>
-          <Amount Action="Subtract">6.10000</Amount>
-          <PromotionID TypeCode="SomeExt:RSNo">20142124</PromotionID>
-          <Description>2,8% 2 för 49,90</Description>
-          <ItemLink>22</ItemLink>
-        </Discount>
-        <SequenceNumber>25</SequenceNumber>
-      </LineItem>
-      <LineItem CancelFlag="false">
-        <Tender TypeCode="Sale" TenderType="CreditDebit">
-          <Amount>704.47000</Amount>
-          <Authorization>
-            <AuthorizationCode>795482986316</AuthorizationCode>
-            <MerchantNumber>30670079</MerchantNumber>
-            <AuthorizationDateTime>2016-05-29T13:55:04</AuthorizationDateTime>
-            <AuthorizingTermID>13532818-461473</AuthorizingTermID>
-          </Authorization>
-          <CreditDebit CardType="Credit">
-            <PrimaryAccountNumber>KioqKioqKioqKioqNDA0NA==</PrimaryAccountNumber>
-          </CreditDebit>
-          <se:PaymentTerminal>
-            <se:Text>  Transtid:      2016-05-29 13:55:04</se:Text>
-            <se:Text>  Kortnummer:    ************4044</se:Text>
-            <se:Text>  VISA CARD</se:Text>
-            <se:Text>  Personlig kod</se:Text>
-            <se:Text>  Belastat bankkonto</se:Text>
-            <se:Text>  Belopp:        SEK 704.47</se:Text>
-            <se:Text>  Butiks-ID:     30670079</se:Text>
-            <se:Text>  Referensnr:    795482 986316  IB1</se:Text>
-            <se:Text>  Terminal-ID:   13532818-461473</se:Text>
-            <se:Text>  DA0  ___ Visa </se:Text>
-            <se:Text>  AID:           A0000000031010</se:Text>
-            <se:Text>  TVR:           0000001000</se:Text>
-            <se:Text>  TSI:           F800</se:Text>
-            <se:Text>  BELOPP  GODKÄNT AV KUND</se:Text>
-            <se:Text>  SPARA KVITTOT, KUNDENS EXEMPLAR</se:Text>
-          </se:PaymentTerminal>
-        </Tender>
-        <SequenceNumber>26</SequenceNumber>
-      </LineItem>
-      <LineItem CancelFlag="false">
-        <TenderChange TypeCode="Refund" TenderType="Cash">
-          <Amount>0.00000</Amount>
-        </TenderChange>
-        <SequenceNumber>27</SequenceNumber>
-      </LineItem>
-      <Total CurrencyCode="SEK" TotalType="TransactionNetAmount">704.47000</Total>
-      <Total CurrencyCode="SEK" TotalType="TransactionTaxAmount">75.48000</Total>
-      <Total TotalType="TransactionPurchaseQuantity">23</Total>
-      <RestrictionValidation CustomerQuestionID="CustomerBirthDate">
-        <QuestionAnswer>NoDate</QuestionAnswer>
-        <SalesRestrictionValidation ValidationFlag="true" RuleID="Age18"/>
-      </RestrictionValidation>
-    </RetailTransaction>
-  </Transaction>
+    <Transaction>
+        <BusinessUnit>
+            <UnitID>276992</UnitID>
+        </BusinessUnit>
+        <WorkstationID TypeCode="POS" Mode="Retail">2</WorkstationID>
+        <SequenceNumber>12201</SequenceNumber>
+        <OperatorID OperatorType="Cashier">238</OperatorID>
+        <CurrencyCode>SEK</CurrencyCode>
+        <ReceiptDateTime>2016-05-29T13:53:12</ReceiptDateTime>
+        <ReceiptNumber TypeCode="Interleaved2Of5">1605290027699250054002012</ReceiptNumber>
+        <ReceiptImage>
+            <ReceiptLine></ReceiptLine>
+            <ReceiptLine>VÄLKOMMEN TILL</ReceiptLine>
+            <ReceiptLine>MY SUPERMARKET</ReceiptLine>
+            <ReceiptLine>Tel.nr: 0771584886</ReceiptLine>
+            <ReceiptLine>------------------------------------------</ReceiptLine>
+            <ReceiptLine>Kvitto: 02-12201 2016-05-29 13:54:14</ReceiptLine>
+            <ReceiptLine>Kassör: 238-Justine</ReceiptLine>
+            <ReceiptLine>Org Nr: 556838-8200 kr</ReceiptLine>
+            <ReceiptLine>------------------------------------------</ReceiptLine>
+            <ReceiptLine></ReceiptLine>
+            <ReceiptLine>APELSINER 12.82</ReceiptLine>
+            <ReceiptLine>1.295 kg x 9.90 kr/kg</ReceiptLine>
+            <ReceiptLine>BANANER 9.26</ReceiptLine>
+            <ReceiptLine>0.935 kg x 9.90 kr/kg</ReceiptLine>
+            <ReceiptLine>COCA COLA 14.90</ReceiptLine>
+            <ReceiptLine>PANT 1KR PET T.O.M 1.00</ReceiptLine>
+            <ReceiptLine>FALCON BAYERSK 2,8 112.00</ReceiptLine>
+            <ReceiptLine>4 st x 28.00</ReceiptLine>
+            <ReceiptLine>PANT 6KR BURK 6X1KR 24.00</ReceiptLine>
+            <ReceiptLine>4st x 6.00</ReceiptLine>
+            <ReceiptLine>NATURGODIS 64.22</ReceiptLine>
+            <ReceiptLine>0.380 kg x 169.00 kr/kg</ReceiptLine>
+            <ReceiptLine>NUGGETS 109.90</ReceiptLine>
+            <ReceiptLine>PAPRIKA MIX 400G 24.90</ReceiptLine>
+            <ReceiptLine>REAL MAYONNAISE Kampanj 25.90</ReceiptLine>
+            <ReceiptLine>RIVEN OST 59.80</ReceiptLine>
+            <ReceiptLine>2 st x 29.90</ReceiptLine>
+            <ReceiptLine>RÖSTIKO ROUNDS 39.90</ReceiptLine>
+            <ReceiptLine>SALLAD ISBERG 5.55</ReceiptLine>
+            <ReceiptLine>0.380 kg x 14.60 kr/kg</ReceiptLine>
+            <ReceiptLine>STORE LOMPER 10ST 13.80</ReceiptLine>
+            <ReceiptLine>2 st x 6.90</ReceiptLine>
+            <ReceiptLine>TOMAT BABYPLOMMON 9.90</ReceiptLine>
+            <ReceiptLine>TRADIZIONALE DIAVL 29.90</ReceiptLine>
+            <ReceiptLine>TRADIZIONALE SPECI 29.90</ReceiptLine>
+            <ReceiptLine>TRADIZIONNALE MOZZ 29.90</ReceiptLine>
+            <ReceiptLine>YTTERLÅR I BIT 71.02</ReceiptLine>
+            <ReceiptLine>0.790 kg x 89.90 kr/kg</ReceiptLine>
+            <ReceiptLine>ÄGG 20-PACK 31.90</ReceiptLine>
+            <ReceiptLine>RABATTER</ReceiptLine>
+            <ReceiptLine>Lomper 2 för 10:- -3.80</ReceiptLine>
+            <ReceiptLine></ReceiptLine>
+            <ReceiptLine>2,8% 2 för 49,90 -6.10</ReceiptLine>
+            <ReceiptLine></ReceiptLine>
+            <ReceiptLine>2,8% 2 för 49,90 -6.10</ReceiptLine>
+            <ReceiptLine></ReceiptLine>
+            <ReceiptLine>===========</ReceiptLine>
+            <ReceiptLine>SUMMERING RABATTER DETTA KÖP 16.00</ReceiptLine>
+            <ReceiptLine>===========</ReceiptLine>
+            <ReceiptLine>ATT BETALA SEK ( 23 ARTIKLAR ) 704.47</ReceiptLine>
+            <ReceiptLine></ReceiptLine>
+            <ReceiptLine></ReceiptLine>
+            <ReceiptLine>TILLBAKA SEK 0.00</ReceiptLine>
+            <ReceiptLine></ReceiptLine>
+            <ReceiptLine></ReceiptLine>
+            <ReceiptLine>KORTKÖP 704.47</ReceiptLine>
+            <ReceiptLine>- - - - - - - - - - - - - - - - - - - -</ReceiptLine>
+            <ReceiptLine>Transtid: 2016-05-29 13:55:04</ReceiptLine>
+            <ReceiptLine>Kortnummer: ************4044</ReceiptLine>
+            <ReceiptLine>VISA CARD</ReceiptLine>
+            <ReceiptLine>Personlig kod</ReceiptLine>
+            <ReceiptLine>Belastat bankkonto</ReceiptLine>
+            <ReceiptLine>Belopp: SEK 704.47</ReceiptLine>
+            <ReceiptLine>Butiks-ID: 30670079</ReceiptLine>
+            <ReceiptLine>Referensnr: 795482 986316 IB1</ReceiptLine>
+            <ReceiptLine>Terminal-ID: 13532818-461473</ReceiptLine>
+            <ReceiptLine>DA0 ___ Visa</ReceiptLine>
+            <ReceiptLine></ReceiptLine>
+            <ReceiptLine>AID: A0000000031010</ReceiptLine>
+            <ReceiptLine>TVR: 0000001000</ReceiptLine>
+            <ReceiptLine>TSI: F800</ReceiptLine>
+            <ReceiptLine>BELOPP GODKÄNT AV KUND</ReceiptLine>
+            <ReceiptLine>SPARA KVITTOT, KUNDENS EXEMPLAR</ReceiptLine>
+            <ReceiptLine>- - - - - - - - - - - - - - - - - - - -</ReceiptLine>
+            <ReceiptLine></ReceiptLine>
+            <ReceiptLine></ReceiptLine>
+            <ReceiptLine></ReceiptLine>
+            <ReceiptLine>Moms Belopp Netto Brutto</ReceiptLine>
+            <ReceiptLine>12% 75.48 628.99 704.47</ReceiptLine>
+            <ReceiptLine></ReceiptLine>
+            <ReceiptLine>ORG.NR 556838-8200</ReceiptLine>
+            <ReceiptLine>*</ReceiptLine>
+            <ReceiptLine>www.mysupermarket.se</ReceiptLine>
+            <ReceiptLine>*</ReceiptLine>
+            <ReceiptLine>** TACK OCH VÄLKOMMEN ÅTER **</ReceiptLine>
+            <ReceiptLine></ReceiptLine>
+            <ReceiptLine></ReceiptLine>
+            <ReceiptLine>9400276992002001220120160529</ReceiptLine>
+            <ReceiptLine></ReceiptLine>
+        </ReceiptImage>
+        <RetailTransaction>
+            <LineItem CancelFlag="false">
+                <Sale ItemSubType="Normal" ItemType="Stock">
+                    <POSIdentity POSIDType="GTIN">
+                        <POSItemID>2317438900009</POSItemID>
+                    </POSIdentity>
+                    <POSIdentity POSIDType="RSID">
+                        <POSItemID>4246</POSItemID>
+                    </POSIdentity>
+                    <MerchandiseHierarchy Level="Group">455</MerchandiseHierarchy>
+                    <Description>APELSINER</Description>
+                    <UnitCostPrice>10.20000</UnitCostPrice>
+                    <ExtendedAmount>12.82000</ExtendedAmount>
+                    <Quantity Units="1.00" UnitOfMeasureCode="KGM">1.29500</Quantity>
+                    <Tax TaxSubType="Standard">
+                        <Amount>1.37357</Amount>
+                        <Percent>12.00</Percent>
+                    </Tax>
+                </Sale>
+                <SequenceNumber>1</SequenceNumber>
+            </LineItem>
+            <LineItem CancelFlag="false">
+                <Sale ItemSubType="Normal" ItemType="Stock">
+                    <POSIdentity POSIDType="GTIN">
+                        <POSItemID>2317401100009</POSItemID>
+                    </POSIdentity>
+                    <POSIdentity POSIDType="RSID">
+                        <POSItemID>4205</POSItemID>
+                    </POSIdentity>
+                    <MerchandiseHierarchy Level="Group">455</MerchandiseHierarchy>
+                    <Description>BANANER</Description>
+                    <UnitCostPrice>10.90000</UnitCostPrice>
+                    <ExtendedAmount>9.26000</ExtendedAmount>
+                    <Quantity Units="1.00" UnitOfMeasureCode="KGM">0.93500</Quantity>
+                    <Tax TaxSubType="Standard">
+                        <Amount>0.99214</Amount>
+                        <Percent>12.00</Percent>
+                    </Tax>
+                </Sale>
+                <SequenceNumber>2</SequenceNumber>
+            </LineItem>
+            <LineItem CancelFlag="false">
+                <Sale ItemSubType="Normal" ItemType="Stock">
+                    <POSIdentity POSIDType="GTIN">
+                        <POSItemID>7055450010287</POSItemID>
+                    </POSIdentity>
+                    <POSIdentity POSIDType="RSID">
+                        <POSItemID>53339</POSItemID>
+                    </POSIdentity>
+                    <MerchandiseHierarchy Level="Group">245</MerchandiseHierarchy>
+                    <Description>STORE LOMPER 10ST</Description>
+                    <UnitCostPrice>10.71000</UnitCostPrice>
+                    <ExtendedAmount>5.00000</ExtendedAmount>
+                    <Quantity Units="1.00" UnitOfMeasureCode="EA">1.00000</Quantity>
+                    <RetailPriceModifier MethodCode="Promotion">
+                        <SequenceNumber>1</SequenceNumber>
+                        <Amount Action="Subtract">1.90000</Amount>
+                        <PromotionID>20162120</PromotionID>
+                        <Description>Lomper 2 för 10:-</Description>
+                    </RetailPriceModifier>
+                    <Tax TaxSubType="Standard">
+                        <Amount>0.53571</Amount>
+                        <Percent>12.00</Percent>
+                    </Tax>
+                </Sale>
+                <SequenceNumber>3</SequenceNumber>
+            </LineItem>
+            <LineItem CancelFlag="false">
+                <Sale ItemSubType="Normal" ItemType="Stock">
+                    <POSIdentity POSIDType="GTIN">
+                        <POSItemID>7055450010287</POSItemID>
+                    </POSIdentity>
+                    <POSIdentity POSIDType="RSID">
+                        <POSItemID>53339</POSItemID>
+                    </POSIdentity>
+                    <MerchandiseHierarchy Level="Group">245</MerchandiseHierarchy>
+                    <Description>STORE LOMPER 10ST</Description>
+                    <UnitCostPrice>10.71000</UnitCostPrice>
+                    <ExtendedAmount>5.00000</ExtendedAmount>
+                    <Quantity Units="1.00" UnitOfMeasureCode="EA">1.00000</Quantity>
+                    <RetailPriceModifier MethodCode="Promotion">
+                        <SequenceNumber>1</SequenceNumber>
+                        <Amount Action="Subtract">1.90000</Amount>
+                        <PromotionID>20162120</PromotionID>
+                        <Description>Lomper 2 för 10:-</Description>
+                    </RetailPriceModifier>
+                    <Tax TaxSubType="Standard">
+                        <Amount>0.53571</Amount>
+                        <Percent>12.00</Percent>
+                    </Tax>
+                </Sale>
+                <SequenceNumber>4</SequenceNumber>
+            </LineItem>
+            <LineItem CancelFlag="false">
+                <Discount>
+                    <SequenceNumber>1</SequenceNumber>
+                    <Amount Action="Subtract">3.80000</Amount>
+                    <PromotionID TypeCode="SomeExt:RSNo">20162120</PromotionID>
+                    <Description>Lomper 2 för 10:-</Description>
+                    <ItemLink>3</ItemLink>
+                    <ItemLink>4</ItemLink>
+                </Discount>
+                <SequenceNumber>5</SequenceNumber>
+            </LineItem>
+            <LineItem CancelFlag="false">
+                <Sale ItemSubType="Normal" ItemType="Stock">
+                    <POSIdentity POSIDType="GTIN">
+                        <POSItemID>3123</POSItemID>
+                    </POSIdentity>
+                    <POSIdentity POSIDType="RSID">
+                        <POSItemID>289</POSItemID>
+                    </POSIdentity>
+                    <MerchandiseHierarchy Level="Group">123</MerchandiseHierarchy>
+                    <Description>ÄGG 20-PACK</Description>
+                    <UnitCostPrice>20.99000</UnitCostPrice>
+                    <ExtendedAmount>31.90000</ExtendedAmount>
+                    <Quantity Units="1.00" UnitOfMeasureCode="EA">1.00000</Quantity>
+                    <Tax TaxSubType="Standard">
+                        <Amount>3.41786</Amount>
+                        <Percent>12.00</Percent>
+                    </Tax>
+                </Sale>
+                <SequenceNumber>6</SequenceNumber>
+            </LineItem>
+            <LineItem CancelFlag="false">
+                <Sale ItemSubType="Normal" ItemType="Stock">
+                    <POSIdentity POSIDType="GTIN">
+                        <POSItemID>4001724002819</POSItemID>
+                    </POSIdentity>
+                    <POSIdentity POSIDType="RSID">
+                        <POSItemID>32289</POSItemID>
+                    </POSIdentity>
+                    <MerchandiseHierarchy Level="Group">726</MerchandiseHierarchy>
+                    <Description>TRADIZIONALE DIAVLO</Description>
+                    <UnitCostPrice>19.85000</UnitCostPrice>
+                    <ExtendedAmount>29.90000</ExtendedAmount>
+                    <Quantity Units="1.00" UnitOfMeasureCode="EA">1.00000</Quantity>
+                    <Tax TaxSubType="Standard">
+                        <Amount>3.20357</Amount>
+                        <Percent>12.00</Percent>
+                    </Tax>
+                </Sale>
+                <SequenceNumber>7</SequenceNumber>
+            </LineItem>
+            <LineItem CancelFlag="false">
+                <Sale ItemSubType="Normal" ItemType="Stock">
+                    <POSIdentity POSIDType="GTIN">
+                        <POSItemID>4001724019893</POSItemID>
+                    </POSIdentity>
+                    <POSIdentity POSIDType="RSID">
+                        <POSItemID>63980</POSItemID>
+                    </POSIdentity>
+                    <MerchandiseHierarchy Level="Group">726</MerchandiseHierarchy>
+                    <Description>TRADIZIONNALE MOZZAR</Description>
+                    <UnitCostPrice>20.87000</UnitCostPrice>
+                    <ExtendedAmount>29.90000</ExtendedAmount>
+                    <Quantity Units="1.00" UnitOfMeasureCode="EA">1.00000</Quantity>
+                    <Tax TaxSubType="Standard">
+                        <Amount>3.20357</Amount>
+                        <Percent>12.00</Percent>
+                    </Tax>
+                </Sale>
+                <SequenceNumber>8</SequenceNumber>
+            </LineItem>
+            <LineItem CancelFlag="false">
+                <Sale ItemSubType="Normal" ItemType="Stock">
+                    <POSIdentity POSIDType="GTIN">
+                        <POSItemID>4001724002758</POSItemID>
+                    </POSIdentity>
+                    <POSIdentity POSIDType="RSID">
+                        <POSItemID>32287</POSItemID>
+                    </POSIdentity>
+                    <MerchandiseHierarchy Level="Group">726</MerchandiseHierarchy>
+                    <Description>TRADIZIONALE SPECIA</Description>
+                    <UnitCostPrice>19.85000</UnitCostPrice>
+                    <ExtendedAmount>29.90000</ExtendedAmount>
+                    <Quantity Units="1.00" UnitOfMeasureCode="EA">1.00000</Quantity>
+                    <Tax TaxSubType="Standard">
+                        <Amount>3.20357</Amount>
+                        <Percent>12.00</Percent>
+                    </Tax>
+                </Sale>
+                <SequenceNumber>9</SequenceNumber>
+            </LineItem>
+            <LineItem CancelFlag="false">
+                <Sale ItemSubType="Normal" ItemType="Stock">
+                    <POSIdentity POSIDType="GTIN">
+                        <POSItemID>7340011300021</POSItemID>
+                    </POSIdentity>
+                    <POSIdentity POSIDType="RSID">
+                        <POSItemID>38308</POSItemID>
+                    </POSIdentity>
+                    <MerchandiseHierarchy Level="Group">155</MerchandiseHierarchy>
+                    <Description>RIVEN OST</Description>
+                    <UnitCostPrice>14.84000</UnitCostPrice>
+                    <ExtendedAmount>29.90000</ExtendedAmount>
+                    <Quantity Units="1.00" UnitOfMeasureCode="EA">1.00000</Quantity>
+                    <Tax TaxSubType="Standard">
+                        <Amount>3.20357</Amount>
+                        <Percent>12.00</Percent>
+                    </Tax>
+                </Sale>
+                <SequenceNumber>10</SequenceNumber>
+            </LineItem>
+            <LineItem CancelFlag="false">
+                <Sale ItemSubType="Normal" ItemType="Stock">
+                    <POSIdentity POSIDType="GTIN">
+                        <POSItemID>8710449002238</POSItemID>
+                    </POSIdentity>
+                    <POSIdentity POSIDType="RSID">
+                        <POSItemID>20718</POSItemID>
+                    </POSIdentity>
+                    <MerchandiseHierarchy Level="Group">715</MerchandiseHierarchy>
+                    <Description>RÖSTIKO ROUNDS</Description>
+                    <UnitCostPrice>25.25000</UnitCostPrice>
+                    <ExtendedAmount>39.90000</ExtendedAmount>
+                    <Quantity Units="1.00" UnitOfMeasureCode="EA">1.00000</Quantity>
+                    <Tax TaxSubType="Standard">
+                        <Amount>4.27500</Amount>
+                        <Percent>12.00</Percent>
+                    </Tax>
+                </Sale>
+                <SequenceNumber>11</SequenceNumber>
+            </LineItem>
+            <LineItem CancelFlag="false">
+                <Sale ItemSubType="Normal" ItemType="Stock">
+                    <POSIdentity POSIDType="GTIN">
+                        <POSItemID>3700344600535</POSItemID>
+                    </POSIdentity>
+                    <POSIdentity POSIDType="RSID">
+                        <POSItemID>32251</POSItemID>
+                    </POSIdentity>
+                    <MerchandiseHierarchy Level="Group">450</MerchandiseHierarchy>
+                    <Description>TOMAT BABYPLOMMON</Description>
+                    <UnitCostPrice>5.85000</UnitCostPrice>
+                    <ExtendedAmount>9.90000</ExtendedAmount>
+                    <Quantity Units="1.00" UnitOfMeasureCode="EA">1.00000</Quantity>
+                    <Tax TaxSubType="Standard">
+                        <Amount>1.06071</Amount>
+                        <Percent>12.00</Percent>
+                    </Tax>
+                </Sale>
+                <SequenceNumber>12</SequenceNumber>
+            </LineItem>
+            <LineItem CancelFlag="false">
+                <Sale ItemSubType="Normal" ItemType="Stock">
+                    <POSIdentity POSIDType="GTIN">
+                        <POSItemID>7300170047113</POSItemID>
+                    </POSIdentity>
+                    <POSIdentity POSIDType="RSID">
+                        <POSItemID>10412</POSItemID>
+                    </POSIdentity>
+                    <MerchandiseHierarchy Level="Group">450</MerchandiseHierarchy>
+                    <Description>PAPRIKA MIX 400G</Description>
+                    <UnitCostPrice>13.00000</UnitCostPrice>
+                    <ExtendedAmount>24.90000</ExtendedAmount>
+                    <Quantity Units="1.00" UnitOfMeasureCode="EA">1.00000</Quantity>
+                    <Tax TaxSubType="Standard">
+                        <Amount>2.66786</Amount>
+                        <Percent>12.00</Percent>
+                    </Tax>
+                </Sale>
+                <SequenceNumber>13</SequenceNumber>
+            </LineItem>
+            <LineItem CancelFlag="false">
+                <Sale ItemSubType="Normal" ItemType="Stock">
+                    <POSIdentity POSIDType="GTIN">
+                        <POSItemID>4061</POSItemID>
+                    </POSIdentity>
+                    <POSIdentity POSIDType="RSID">
+                        <POSItemID>4217</POSItemID>
+                    </POSIdentity>
+                    <MerchandiseHierarchy Level="Group">450</MerchandiseHierarchy>
+                    <Description>SALLAD ISBERG</Description>
+                    <UnitCostPrice>8.50000</UnitCostPrice>
+                    <ExtendedAmount>5.55000</ExtendedAmount>
+                    <Quantity Units="1.00" UnitOfMeasureCode="KGM">0.38000</Quantity>
+                    <Tax TaxSubType="Standard">
+                        <Amount>0.59464</Amount>
+                        <Percent>12.00</Percent>
+                    </Tax>
+                </Sale>
+                <SequenceNumber>14</SequenceNumber>
+            </LineItem>
+            <LineItem CancelFlag="false">
+                <Sale ItemSubType="Normal" ItemType="Stock">
+                    <POSIdentity POSIDType="GTIN">
+                        <POSItemID>2000650300008</POSItemID>
+                    </POSIdentity>
+                    <POSIdentity POSIDType="RSID">
+                        <POSItemID>2395</POSItemID>
+                    </POSIdentity>
+                    <MerchandiseHierarchy Level="Group">250</MerchandiseHierarchy>
+                    <Description>YTTERLÅR I BIT</Description>
+                    <UnitCostPrice>66.75000</UnitCostPrice>
+                    <ExtendedAmount>71.02000</ExtendedAmount>
+                    <Quantity Units="1.00" UnitOfMeasureCode="KGM">0.79000</Quantity>
+                    <Tax TaxSubType="Standard">
+                        <Amount>7.60929</Amount>
+                        <Percent>12.00</Percent>
+                    </Tax>
+                </Sale>
+                <SequenceNumber>15</SequenceNumber>
+            </LineItem>
+            <LineItem CancelFlag="false">
+                <Sale ItemSubType="Normal" ItemType="Stock">
+                    <POSIdentity POSIDType="GTIN">
+                        <POSItemID>5789000019704</POSItemID>
+                    </POSIdentity>
+                    <POSIdentity POSIDType="RSID">
+                        <POSItemID>8816</POSItemID>
+                    </POSIdentity>
+                    <MerchandiseHierarchy Level="Group">742</MerchandiseHierarchy>
+                    <Description>NUGGETS</Description>
+                    <UnitCostPrice>74.35000</UnitCostPrice>
+                    <ExtendedAmount>109.90000</ExtendedAmount>
+                    <Quantity Units="1.00" UnitOfMeasureCode="EA">1.00000</Quantity>
+                    <Tax TaxSubType="Standard">
+                        <Amount>11.77500</Amount>
+                        <Percent>12.00</Percent>
+                    </Tax>
+                </Sale>
+                <SequenceNumber>16</SequenceNumber>
+            </LineItem>
+            <LineItem CancelFlag="false">
+                <Sale ItemSubType="Normal" ItemType="Stock">
+                    <POSIdentity POSIDType="GTIN">
+                        <POSItemID>5000184321064</POSItemID>
+                    </POSIdentity>
+                    <POSIdentity POSIDType="RSID">
+                        <POSItemID>7311</POSItemID>
+                    </POSIdentity>
+                    <MerchandiseHierarchy Level="Group">622</MerchandiseHierarchy>
+                    <Description>REAL MAYONNAISE</Description>
+                    <UnitCostPrice>12.85000</UnitCostPrice>
+                    <ExtendedAmount>25.90000</ExtendedAmount>
+                    <Quantity Units="1.00" UnitOfMeasureCode="EA">1.00000</Quantity>
+                    <RetailPriceModifier MethodCode="Promotion">
+                        <SequenceNumber>1</SequenceNumber>
+                        <Amount Action="Subtract">4.00000</Amount>
+                        <Description>Campaign price</Description>
+                    </RetailPriceModifier>
+                    <Tax TaxSubType="Standard">
+                        <Amount>2.77500</Amount>
+                        <Percent>12.00</Percent>
+                    </Tax>
+                </Sale>
+                <SequenceNumber>17</SequenceNumber>
+            </LineItem>
+            <LineItem CancelFlag="false">
+                <Sale ItemSubType="Normal" ItemType="Stock">
+                    <POSIdentity POSIDType="GTIN">
+                        <POSItemID>7340011300021</POSItemID>
+                    </POSIdentity>
+                    <POSIdentity POSIDType="RSID">
+                        <POSItemID>38308</POSItemID>
+                    </POSIdentity>
+                    <MerchandiseHierarchy Level="Group">155</MerchandiseHierarchy>
+                    <Description>RIVEN OST</Description>
+                    <UnitCostPrice>14.84000</UnitCostPrice>
+                    <ExtendedAmount>29.90000</ExtendedAmount>
+                    <Quantity Units="1.00" UnitOfMeasureCode="EA">1.00000</Quantity>
+                    <Tax TaxSubType="Standard">
+                        <Amount>3.20357</Amount>
+                        <Percent>12.00</Percent>
+                    </Tax>
+                </Sale>
+                <SequenceNumber>18</SequenceNumber>
+            </LineItem>
+            <LineItem CancelFlag="false">
+                <Sale ItemSubType="Normal" ItemType="Stock">
+                    <POSIdentity POSIDType="GTIN">
+                        <POSItemID>595</POSItemID>
+                    </POSIdentity>
+                    <POSIdentity POSIDType="RSID">
+                        <POSItemID>313</POSItemID>
+                    </POSIdentity>
+                    <MerchandiseHierarchy Level="Group">565</MerchandiseHierarchy>
+                    <Description>NATURGODIS</Description>
+                    <UnitCostPrice>89.00000</UnitCostPrice>
+                    <ExtendedAmount>64.22000</ExtendedAmount>
+                    <Quantity Units="1.00" UnitOfMeasureCode="KGM">0.38000</Quantity>
+                    <Tax TaxSubType="Standard">
+                        <Amount>6.88071</Amount>
+                        <Percent>12.00</Percent>
+                    </Tax>
+                </Sale>
+                <SequenceNumber>19</SequenceNumber>
+            </LineItem>
+            <LineItem CancelFlag="false">
+                <Sale ItemSubType="Normal" ItemType="Stock">
+                    <POSIdentity POSIDType="GTIN">
+                        <POSItemID>73513513</POSItemID>
+                    </POSIdentity>
+                    <POSIdentity POSIDType="RSID">
+                        <POSItemID>674</POSItemID>
+                    </POSIdentity>
+                    <MerchandiseHierarchy Level="Group">520</MerchandiseHierarchy>
+                    <Description>COCA COLA</Description>
+                    <UnitCostPrice>7.97000</UnitCostPrice>
+                    <ExtendedAmount>15.90000</ExtendedAmount>
+                    <Quantity Units="1.00" UnitOfMeasureCode="EA">1.00000</Quantity>
+                    <Tax TaxSubType="Standard">
+                        <Amount>1.70357</Amount>
+                        <Percent>12.00</Percent>
+                    </Tax>
+                    <se:RecyclingAmount>1.00000</se:RecyclingAmount>
+                </Sale>
+                <SequenceNumber>20</SequenceNumber>
+            </LineItem>
+            <LineItem CancelFlag="false">
+                <Sale ItemSubType="Normal" ItemType="Deposit">
+                    <POSIdentity POSIDType="GTIN">
+                        <POSItemID>7300170026033</POSItemID>
+                    </POSIdentity>
+                    <POSIdentity POSIDType="RSID">
+                        <POSItemID>48</POSItemID>
+                    </POSIdentity>
+                    <MerchandiseHierarchy Level="Group">500</MerchandiseHierarchy>
+                    <Description>PANT 1KR PET T.O.M</Description>
+                    <UnitCostPrice>0.89000</UnitCostPrice>
+                    <ExtendedAmount>1.00000</ExtendedAmount>
+                    <Quantity Units="1.00">1.00000</Quantity>
+                    <ItemLink>20</ItemLink>
+                </Sale>
+                <SequenceNumber>21</SequenceNumber>
+            </LineItem>
+            <LineItem CancelFlag="false">
+                <Sale ItemSubType="Normal" ItemType="Stock">
+                    <POSIdentity POSIDType="GTIN">
+                        <POSItemID>7310072766203</POSItemID>
+                    </POSIdentity>
+                    <POSIdentity POSIDType="RSID">
+                        <POSItemID>10740</POSItemID>
+                    </POSIdentity>
+                    <MerchandiseHierarchy Level="Group">510</MerchandiseHierarchy>
+                    <Description>FALCON BAYERSK 2,8</Description>
+                    <UnitCostPrice>17.50000</UnitCostPrice>
+                    <ExtendedAmount>123.80000</ExtendedAmount>
+                    <Quantity Units="1.00" UnitOfMeasureCode="EA">4.00000</Quantity>
+                    <RetailPriceModifier MethodCode="Promotion">
+                        <SequenceNumber>1</SequenceNumber>
+                        <Amount Action="Subtract">6.10000</Amount>
+                        <PromotionID>20142124</PromotionID>
+                        <Description>2,8% 2 för 49,90</Description>
+                    </RetailPriceModifier>
+                    <RetailPriceModifier MethodCode="Promotion">
+                        <SequenceNumber>2</SequenceNumber>
+                        <Amount Action="Subtract">6.10000</Amount>
+                        <PromotionID>20142124</PromotionID>
+                        <Description>2,8% 2 för 49,90</Description>
+                    </RetailPriceModifier>
+                    <Tax TaxSubType="Standard">
+                        <Amount>13.26429</Amount>
+                        <Percent>12.00</Percent>
+                    </Tax>
+                    <se:RecyclingAmount>24.00000</se:RecyclingAmount>
+                </Sale>
+                <SequenceNumber>22</SequenceNumber>
+            </LineItem>
+            <LineItem CancelFlag="false">
+                <Sale ItemSubType="Normal" ItemType="Deposit">
+                    <POSIdentity POSIDType="GTIN">
+                        <POSItemID>7300170026521</POSItemID>
+                    </POSIdentity>
+                    <POSIdentity POSIDType="RSID">
+                        <POSItemID>61</POSItemID>
+                    </POSIdentity>
+                    <MerchandiseHierarchy Level="Group">500</MerchandiseHierarchy>
+                    <Description>PANT 6KR BURK 6X1KR</Description>
+                    <UnitCostPrice>5.34000</UnitCostPrice>
+                    <ExtendedAmount>24.00000</ExtendedAmount>
+                    <Quantity Units="1.00">4.00000</Quantity>
+                    <ItemLink>22</ItemLink>
+                </Sale>
+                <SequenceNumber>23</SequenceNumber>
+            </LineItem>
+            <LineItem CancelFlag="false">
+                <Discount>
+                    <SequenceNumber>1</SequenceNumber>
+                    <Amount Action="Subtract">6.10000</Amount>
+                    <PromotionID TypeCode="SomeExt:RSNo">20142124</PromotionID>
+                    <Description>2,8% 2 för 49,90</Description>
+                    <ItemLink>22</ItemLink>
+                </Discount>
+                <SequenceNumber>24</SequenceNumber>
+            </LineItem>
+            <LineItem CancelFlag="false">
+                <Discount>
+                    <SequenceNumber>1</SequenceNumber>
+                    <Amount Action="Subtract">6.10000</Amount>
+                    <PromotionID TypeCode="SomeExt:RSNo">20142124</PromotionID>
+                    <Description>2,8% 2 för 49,90</Description>
+                    <ItemLink>22</ItemLink>
+                </Discount>
+                <SequenceNumber>25</SequenceNumber>
+            </LineItem>
+            <LineItem CancelFlag="false">
+                <Tender TypeCode="Sale" TenderType="CreditDebit">
+                    <Amount>704.47000</Amount>
+                    <Authorization>
+                        <AuthorizationCode>795482986316</AuthorizationCode>
+                        <MerchantNumber>30670079</MerchantNumber>
+                        <AuthorizationDateTime>2016-05-29T13:55:04</AuthorizationDateTime>
+                        <AuthorizingTermID>13532818-461473</AuthorizingTermID>
+                    </Authorization>
+                    <CreditDebit CardType="Credit">
+                        <PrimaryAccountNumber>KioqKioqKioqKioqNDA0NA==</PrimaryAccountNumber>
+                    </CreditDebit>
+                    <se:PaymentTerminal>
+                        <se:Text>Transtid: 2016-05-29 13:55:04</se:Text>
+                        <se:Text>Kortnummer: ************4044</se:Text>
+                        <se:Text>VISA CARD</se:Text>
+                        <se:Text>Personlig kod</se:Text>
+                        <se:Text>Belastat bankkonto</se:Text>
+                        <se:Text>Belopp: SEK 704.47</se:Text>
+                        <se:Text>Butiks-ID: 30670079</se:Text>
+                        <se:Text>Referensnr: 795482 986316 IB1</se:Text>
+                        <se:Text>Terminal-ID: 13532818-461473</se:Text>
+                        <se:Text>DA0 ___ Visa</se:Text>
+                        <se:Text>AID: A0000000031010</se:Text>
+                        <se:Text>TVR: 0000001000</se:Text>
+                        <se:Text>TSI: F800</se:Text>
+                        <se:Text>BELOPP GODKÄNT AV KUND</se:Text>
+                        <se:Text>SPARA KVITTOT, KUNDENS EXEMPLAR</se:Text>
+                    </se:PaymentTerminal>
+                </Tender>
+                <SequenceNumber>26</SequenceNumber>
+            </LineItem>
+            <LineItem CancelFlag="false">
+                <TenderChange TypeCode="Refund" TenderType="Cash">
+                    <Amount>0.00000</Amount>
+                </TenderChange>
+                <SequenceNumber>27</SequenceNumber>
+            </LineItem>
+            <Total CurrencyCode="SEK" TotalType="TransactionNetAmount">704.47000</Total>
+            <Total CurrencyCode="SEK" TotalType="TransactionTaxAmount">75.48000</Total>
+            <Total TotalType="TransactionPurchaseQuantity">23</Total>
+            <RestrictionValidation CustomerQuestionID="CustomerBirthDate">
+                <QuestionAnswer>NoDate</QuestionAnswer>
+                <SalesRestrictionValidation ValidationFlag="true" RuleID="Age18"/>
+            </RestrictionValidation>
+        </RetailTransaction>
+    </Transaction>
 </DigitalReceipt>

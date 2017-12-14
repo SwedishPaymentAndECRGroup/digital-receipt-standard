@@ -109,8 +109,6 @@ This section covers the most common ARTS terms and their corresponding POS data 
 
 Root element, includes the namespace for all terms (elements, attributes) used within a receipt. If the ARTS schema is extended, the extension namespace must be declared as well.
 
-The attribute **copy** has to be provided with either **true** or **false** value. This indicates if the digital receipt is a copy or an original. If a paper receipt is printed as the original receipt a digital copy should be sent with copy="true” flag.
-
 Example:
 ```xml
 <nam:DigitalReceipt MajorVersion="6" MinorVersion="0" FixVersion="0" se:copy="true" 
@@ -126,6 +124,8 @@ Example:
 The *DigitalReceipt* element can contain multiple transactions. The way a *Transaction* is defined it can contain one or more *RetailTransaction/CustomerOrderTransaction* from one and the same sales company, POS (*WorkstationID)* and operator (*OperatorID)*. A *Transaction *is basically a single receipt.  
 
 This document describes single transaction receipts.
+
+The attribute **copy** has to be provided with either **true** or **false** value. This indicates if the digital receipt is a copy or an original. If a paper receipt is printed as the original receipt a digital copy should be sent with copy="true” flag. **false** is default.
 
 #### HeaderText - Swedish standard extension
 
