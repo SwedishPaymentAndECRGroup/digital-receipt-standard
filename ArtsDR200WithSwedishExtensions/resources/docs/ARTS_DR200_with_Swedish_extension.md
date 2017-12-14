@@ -56,6 +56,8 @@ This document focuses on details of the digital receipt XML structure. To simpli
 * NRF/ARTS  documentation (schemas, uses cases etc)
 [https://nrf.com/resources/retail-library/digital-receipt-integration-standard-30](https://nrf.com/resources/retail-library/digital-receipt-integration-standard-30)
 * Swedish standard documentation and uses cases - TO BE DEFINED.
+* Chapter 7.1, required receipt content according to Swedish tax authories
+[http://www4.skatteverket.se/download/18.23a7d9f315064c2d02960ef/1447256030870/SKVFS+2014+9.pdf](http://www4.skatteverket.se/download/18.23a7d9f315064c2d02960ef/1447256030870/SKVFS+2014+9.pdf)
 
 ## Scope
 
