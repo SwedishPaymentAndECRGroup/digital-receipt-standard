@@ -1,6 +1,6 @@
 # **_Use Case: A customer wants to return some merchandise bought_**
 
-This document will describe some alternative scenarios based on this use case. The scenarios depends on the capabilies of the POS, merchant backend and digital receipt provider systems used.
+This document describes some alternative scenarios based on this use case. The scenarios depends on the capabilities of the POS, merchant backend and digital receipt provider systems used.
 
 The document does not describe any internal routines the merchant has, like signing receipts etc upon repurchase. 
 ## Scenario <a name="scenario"></a>
