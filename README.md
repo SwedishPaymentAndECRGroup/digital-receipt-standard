@@ -14,7 +14,7 @@ The repository contains documents and examples describing how to create digital 
 ### Use cases
 A number of use cases are provided to describe common scenarios and how they affect the receipt content. 
  
-- [Customer sales]() 
+- [Customer sales](https://github.com/SwedishPaymentAndECRGroup/digital-receipt-standard/blob/master/ArtsDR200WithSwedishExtensions/resources/docs/UC_Customer_sales.md) 
 - [Customer return](https://github.com/SwedishPaymentAndECRGroup/digital-receipt-standard/blob/master/ArtsDR200WithSwedishExtensions/resources/docs/UC_Return_of_merchandise.md) 
 
 ### XML schemas and receipts
