@@ -22,6 +22,10 @@ A number of use cases are provided to describe common scenarios and how they aff
 - [XML schemas](https://github.com/SwedishPaymentAndECRGroup/digital-receipt-standard/tree/master/ArtsDR200WithSwedishExtensions/resources/schemas)
 - [Example receipts](https://github.com/SwedishPaymentAndECRGroup/digital-receipt-standard/tree/master/ArtsDR200WithSwedishExtensions/resources/receipts)
 
+## Swedish Legislation
+- [Sales Receipts](https://www4.skatteverket.se/download/18.23a7d9f315064c2d02960ef/1447256030870/SKVFS+2014+9.pdf) 
+- [Bookkeeping](https://www.skatteverket.se/foretagochorganisationer/foretagare/bokforingochbokslut/bokforingvadkraverlagen.4.18e1b10334ebe8bc80005195.html)
+
 
 ## Working in GitHub
 To work in GitHub, go to https://github.com/SwedishPaymentAndECRGroup/digital-receipt-standard and fork the repository. Work in your own fork and when you are ready to submit to make a change or publish your sample for the first time, submit a pull request into the master branch. One of the approvers will review your request and accept or reject the pull request.
