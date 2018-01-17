@@ -172,7 +172,7 @@ Example:
 
 #### Customer
 
-The ARTS *Customer* element contains information about the customer. The ARTS Customer element can be used as is if it is enough to identify the customer using email or telephone number. ARTS-DR-SE defines an extension to the ARTS *Customer *element if other customer identification mechanisms are needed .
+The ARTS *Customer* element contains information about the customer. The ARTS Customer element can be used as is if it is enough to identify the customer using email or telephone number. ARTS-DR-SE defines an extension to the ARTS *Customer* element if other customer identification mechanisms are needed .
 
 Example:
 ```
@@ -188,7 +188,7 @@ Example:
 </se:Customer>
 ```
 
-Custom types can be added to the *CustomerID* element. Format must conform to:
+Custom types can be added to the *Identifier* element *Type* attribute. Format must conform to:
 ```
     <xs:simpleType name="IXREnumerationExtension">
         <xs:restriction base="xs:string">
@@ -198,7 +198,7 @@ Custom types can be added to the *CustomerID* element. Format must conform to:
 ```
 Example:
 ```xml
-<se:CustomerID Type="MyCompany:IdentifierType">123456</se:CustomerID>
+<se:Identifier Type="MyCompany:IdentifierType">123456</se:Identifier>
 ```
 #### ReceiptCode - Swedish standard extension
 
@@ -324,7 +324,7 @@ There are several ways to identify a sale item:
     * articleGroup
     * supplier
     * brand
-* ItemID - qualified with *Type. *Supported  *Types:*
+* ItemID - qualified with *Type*. Supported  *Types:*
     * GTIN
 * Description
 
@@ -361,7 +361,7 @@ Example return article:
         <ExtendedAmount Currency="SEK">49.00</ExtendedAmount>
         <Quantity Units="1" UnitOfMeasureCode="EA">1</Quantity>
         <TransactionLink>
-            <TransactionID>cd5d49f0-56e8-11e1-b86c-0800200c9a66</**TransactionID**>
+            <TransactionID>cd5d49f0-56e8-11e1-b86c-0800200c9a66</TransactionID>
         </TransactionLink>
         <se:ReceiptCodeLink>1210961120788496</se:ReceiptCodeLink>
         <Reason>NA</Reason>
@@ -370,11 +370,11 @@ Example return article:
 </LineItem>
 ```
 
-The *TransactionLink* element is what ARTS uses to reference the original (sales) receipt. This *TransactionLink**/TransactionID* is based on a company internal reference, for companies using ARTS. The swedish extension defines an extension to ARTS, the *ReceiptCodeLink**, *to have a reference that works outside company borders. The *ReceiptCodeLink* refers to the sale receipts *ReceiptCode* element ([described earlier in this document](#heading=h.8waduk8c0qyh)). 
+The *TransactionLink* element is what ARTS uses to reference the original (sales) receipt. This *TransactionLink/TransactionID* is based on a company internal reference, for companies using ARTS. The swedish extension defines an extension to ARTS, the *ReceiptCodeLink*, to have a reference that works outside company borders. The *ReceiptCodeLink* refers to the sale receipts *ReceiptCode* element ([described earlier in this document](#heading=h.8waduk8c0qyh)). 
 
-As the *ReceiptCode* can displayed on the digital sales receipt, both as barcode and characters, it it easy for the cashier to add this as a sales receipt reference on the return receipt. Use either *ReceiptCodeLink *or *TransactionLink*, both are not needed.
+As the *ReceiptCode* can displayed on the digital sales receipt, both as barcode and characters, it it easy for the cashier to add this as a sales receipt reference on the return receipt. Use either *ReceiptCodeLink* or *TransactionLink*, both are not needed.
 
-It is also important that the *Return *element contains item identifiers and number of items returned to make it possible to determine which item(s) from the sales receipt that has been returned.
+It is also important that the *Return* element contains item identifiers and number of items returned to make it possible to determine which item(s) from the sales receipt that has been returned.
 
 For fields displayed on the digital receipt see the *LineItem - Sale* section above.
 
@@ -476,8 +476,9 @@ There are number of different total types, the default total type is *Transactio
 All total types should be displayed on the receipt.
 
 Example:
-
+```
 <Total TotalType="TransactionGrandAmount" CurrencyCode="SEK">558.00</Total>
+```
 
 ##### Attachment - Swedish standard extension
 

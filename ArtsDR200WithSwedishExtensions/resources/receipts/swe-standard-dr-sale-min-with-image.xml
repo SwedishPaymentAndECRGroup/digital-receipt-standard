@@ -80,9 +80,9 @@ http://www.sweretailstandard.se/schemas/namespace/se/SweArtsDR200ExtV1.0.0.xsd">
             </nam:LineItem>
             <nam:Total TotalType="TransactionNetAmount">35.00</nam:Total>
             <nam:Total TotalType="TransactionGrandAmount" CurrencyCode="SEK">35.00</nam:Total>
-            <!--se:Customer>
-                <se:Identifier Type="CardToken">B216ADDEEC6495D34418323F6E46633C71B01D45557C138EB5A28723C5F4E897DAD647</se:Identifier>
-            </se:Customer-->
+            <se:Customer>
+                <se:Identifier Type="Nets:CardToken">B216ADDEEC6495D34418323F6E46633C71B01D45557C138EB5A28723C5F4E897DAD647</se:Identifier>
+            </se:Customer>
             <se:Receiver Type="Nets:CardToken">B216ADDEEC6495D34418323F6E46633C71B01D45557C138EB5A28723C5F4E897DAD647</se:Receiver>
         </nam:RetailTransaction>
     </nam:Transaction>

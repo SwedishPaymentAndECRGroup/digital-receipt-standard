@@ -245,7 +245,7 @@
                 <nam:EMail>
                     <nam:EMailAddress>someone@email.com</nam:EMailAddress>
                 </nam:EMail>
-                <se:serviceid>123</se:serviceid>
+                <se:Identifier Type="ServiceID">123</se:Identifier>
             </se:Customer>
         </nam:RetailTransaction>
         <!-- 2 Alternative ways of identifying the receipt issuer -->

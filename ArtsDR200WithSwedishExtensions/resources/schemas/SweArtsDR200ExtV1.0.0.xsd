@@ -50,7 +50,18 @@
         <xs:complexContent>
             <xs:extension base="dr:CustomerCommonData">
                 <xs:sequence>
-                    <xs:element name="serviceid" minOccurs="0" type="xs:string"/>
+                    <xs:element name="Identifier">
+                        <xs:annotation>
+                            <xs:documentation>Receipt receiver identification</xs:documentation>
+                        </xs:annotation>
+                        <xs:complexType>
+                            <xs:simpleContent>
+                                <xs:extension base="xs:string">
+                                    <xs:attribute name="Type" type="ReceiverIDType"/>
+                                </xs:extension>
+                            </xs:simpleContent>
+                        </xs:complexType>
+                    </xs:element>
                 </xs:sequence>
             </xs:extension>
         </xs:complexContent>
