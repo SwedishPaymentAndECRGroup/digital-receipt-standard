@@ -52,12 +52,11 @@ This document is part of the Swedish digital receipt standard package. This pack
 ## Recommended reading <a name="recommended-reading"></a>
 
 This document focuses on details of the digital receipt XML structure. To simplify the understanding of the content of this document the following resources should be studied alongside:
-* Sample receipts and schemas - LOCATION AND CONTENT TO BE DEFINED.
-* NRF/ARTS  documentation (schemas, uses cases etc)
-[https://nrf.com/resources/retail-library/digital-receipt-integration-standard-30](https://nrf.com/resources/retail-library/digital-receipt-integration-standard-30)
-* Swedish standard documentation and uses cases - TO BE DEFINED.
-* Chapter 7.1, required receipt content according to Swedish tax authories
-[http://www4.skatteverket.se/download/18.23a7d9f315064c2d02960ef/1447256030870/SKVFS+2014+9.pdf](http://www4.skatteverket.se/download/18.23a7d9f315064c2d02960ef/1447256030870/SKVFS+2014+9.pdf)
+* [Sample receipts](https://github.com/SwedishPaymentAndECRGroup/digital-receipt-standard/tree/master/ArtsDR200WithSwedishExtensions/resources/receipts).
+* [XML schemas](https://github.com/SwedishPaymentAndECRGroup/digital-receipt-standard/tree/master/ArtsDR200WithSwedishExtensions/resources/schemas).
+* [NRF/ARTS  documentation (schemas, uses cases etc)](https://nrf.com/resources/retail-library/digital-receipt-integration-standard-30)
+* [Swedish standard documentation and uses cases](https://github.com/SwedishPaymentAndECRGroup/digital-receipt-standard/tree/master/ArtsDR200WithSwedishExtensions/resources/docs).
+* [Chapter 7.1, required receipt content according to Swedish tax authories](http://www4.skatteverket.se/download/18.23a7d9f315064c2d02960ef/1447256030870/SKVFS+2014+9.pdf)
 
 ## Scope
 
@@ -111,7 +110,7 @@ Root element, includes the namespace for all terms (elements, attributes) used w
 
 Example:
 ```xml
-<nam:DigitalReceipt MajorVersion="6" MinorVersion="0" FixVersion="0" se:copy="true" 
+<nam:DigitalReceipt MajorVersion="6" MinorVersion="0" FixVersion="0" 
                     xmlns:nam="http://www.nrf-arts.org/IXRetail/namespace/"
                     xmlns:se="http://**www.swestandard.se**/schemas/namespace/se"
                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
