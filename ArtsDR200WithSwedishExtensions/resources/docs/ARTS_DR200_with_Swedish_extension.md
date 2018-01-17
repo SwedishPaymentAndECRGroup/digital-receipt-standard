@@ -120,7 +120,7 @@ Example:
 
 #### Transaction
 
-The *DigitalReceipt* element can contain multiple transactions. The way a *Transaction* is defined it can contain one or more *RetailTransaction/CustomerOrderTransaction* from one and the same sales company, POS (*WorkstationID)* and operator (*OperatorID)*. A *Transaction *is basically a single receipt.  
+The *DigitalReceipt* element can contain multiple transactions. The way a *Transaction* is defined it can contain one or more *RetailTransaction/CustomerOrderTransaction* from one and the same sales company, POS (*WorkstationID)* and operator (*OperatorID)*. A *Transaction* is basically a single receipt.  
 
 This document describes single transaction receipts.
 
