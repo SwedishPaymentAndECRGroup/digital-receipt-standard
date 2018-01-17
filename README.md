@@ -3,7 +3,7 @@ This GitHub repository contains a proposal for a swedish digital receipt standar
 
 ## Repository content
 
-The repository contains documents and examples describing how to create digital receipts using the ARTS Digitl Receipt Standard with swedish extensions. For more general information on NRF retail technology standard and ARTS:
+The repository contains documents and examples describing how to create digital receipts using the ARTS Digital Receipt Standard with swedish extensions. For more general information on NRF retail technology standard and ARTS:
 - [NRF](https://nrf.com/resources/retail-technology-standards-0)
 - [OMG - ARTS DR](http://www.omg.org/retail/schema.htm)  
 
