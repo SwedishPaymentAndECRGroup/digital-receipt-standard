@@ -3,9 +3,11 @@
            targetNamespace="http://www.sweretailstandard.se/schemas/namespace/se"
            xmlns="http://www.sweretailstandard.se/schemas/namespace/se"
            xmlns:dr="http://www.nrf-arts.org/IXRetail/namespace/"
+           xmlns:xmime="http://www.w3.org/2005/05/xmlmime"
            xmlns:xs="http://www.w3.org/2001/XMLSchema">
 
     <xs:import namespace="http://www.nrf-arts.org/IXRetail/namespace/"/>
+    <xs:import namespace="http://www.w3.org/2005/05/xmlmime"/>
 
     <!-- common -->
     <xs:complexType name="DateRangeType">
@@ -172,6 +174,7 @@
     </xs:simpleType>
     <xs:simpleType name="AttachmentTypeEnumeration">
         <xs:restriction base="xs:NMTOKEN">
+            <xs:enumeration value="Receipt"/>
             <xs:enumeration value="Insurance"/>
             <xs:enumeration value="Guarantee"/>
             <xs:enumeration value="Guide"/>
@@ -186,28 +189,24 @@
             <xs:minInclusive value="0"/>
         </xs:restriction>
     </xs:simpleType>
+    <!--xs:complexType name="AttachmentContent">
+        <xs:simpleContent>
+            <xs:extension base="xmime:base64Binary"/>
+        </xs:simpleContent>
+    </xs:complexType -->
     <xs:element name="Attachment">
         <xs:annotation>
-            <xs:documentation>Swedish standard extension: One or more attachments can be added to the receipt. Images attached must be base64 encoded</xs:documentation>
+            <xs:documentation>Swedish standard extension: One or more attachments can be added to the receipt. Images/text attached must be base64 encoded</xs:documentation>
         </xs:annotation>
         <xs:complexType>
             <xs:sequence>
-                <xs:element name="Name" type="xs:string"/>
+                <xs:element name="Name" type="xs:string" minOccurs="0"/>
                 <xs:element name="Description" type="xs:string" minOccurs="0"/>
                 <xs:element name="DisplayPeriod" type="DateRangeType" minOccurs="0"/>
                 <xs:element name="ValidPeriod" type="DateRangeType" minOccurs="0"/>
                 <xs:choice minOccurs="1">
                     <xs:element name="URL" type="xs:anyURI" form="qualified"/>
-                    <xs:element name="Image" form="qualified">
-                        <xs:complexType>
-                            <xs:simpleContent>
-                                <xs:extension base="xs:base64Binary">
-                                    <xs:attribute form="unqualified" name="TypeCode"
-                                                  type="dr:ImageTypeCode"/>
-                                </xs:extension>
-                            </xs:simpleContent>
-                        </xs:complexType>
-                    </xs:element>
+                    <xs:element name="Content" type="xmime:base64Binary" form="qualified"/>
               	</xs:choice>
                 <xs:element form="qualified" maxOccurs="unbounded" minOccurs="0" name="ItemLink"
                     type="SequenceNumberType">
