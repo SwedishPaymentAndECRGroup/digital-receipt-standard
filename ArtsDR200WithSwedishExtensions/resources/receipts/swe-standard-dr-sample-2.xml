@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<DigitalReceipt MajorVersion="6" MinorVersion="0" FixVersion="0" se:copy="true"
+<DigitalReceipt MajorVersion="6" MinorVersion="0" FixVersion="0"
                 xmlns="http://www.nrf-arts.org/IXRetail/namespace/"
                 xmlns:se="http://www.sweretailstandard.se/schemas/namespace/se"
                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                 xsi:schemaLocation="http://www.nrf-arts.org/IXRetail/namespace/ http://www.nrf-arts.org/IXRetail/namespace/DigitalReceiptV2.0.0.xsd
                       http://www.sweretailstandard.se/schemas/namespace/se http://www.sweretailstandard.se/schemas/namespace/se/SweArtsDR200ExtV1.0.0.xsd">
-    <Transaction>
+    <Transaction se:Copy="true">
         <BusinessUnit>
             <UnitID>276992</UnitID>
         </BusinessUnit>

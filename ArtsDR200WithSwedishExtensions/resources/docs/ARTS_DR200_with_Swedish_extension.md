@@ -124,7 +124,7 @@ The *DigitalReceipt* element can contain multiple transactions. The way a *Trans
 
 This document describes single transaction receipts.
 
-The attribute **copy** has to be provided with either **true** or **false** value. This indicates if the digital receipt is a copy or an original. If a paper receipt is printed as the original receipt a digital copy should be sent with copy="true” flag. **false** is default.
+The attribute **Copy** has to be provided with either **true** or **false** value. This indicates if the digital receipt is a copy or an original. If a paper receipt is printed as the original receipt a digital copy should be sent with Copy="true” flag. **false** is default.
 
 #### HeaderText - Swedish standard extension
 
@@ -163,7 +163,7 @@ Example:
         <ITUCountryCode>46</ITUCountryCode>
     </Telephone>
     <Website>http://www.myshop.com</Website>
-    <se:Identifier id="5922f97bfeb148d6b9a6ef76f76ebdce” idType=”ServiceID”>
+    <se:Identifier Id="5922f97bfeb148d6b9a6ef76f76ebdce” IdType=”ServiceID”>
         <se:OrganisationID>9999999999</se:OrganisationID>
     </se:Identifier>
 </se:BusinessUnit>

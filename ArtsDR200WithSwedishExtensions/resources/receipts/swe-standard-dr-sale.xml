@@ -161,7 +161,7 @@
             <se:Receiver Type="NationalIdentityNumber">2210228884</se:Receiver>
         </nam:RetailTransaction>
         <se:HeaderText><se:Text>Öppettider: Måndag - Fredag 10-18, Lördag 10-15</se:Text></se:HeaderText>
-        <se:Issuer id="5922f97bfeb148d6b9a6ef76f76ebdce" idType="ServiceID">
+        <se:Issuer Id="5922f97bfeb148d6b9a6ef76f76ebdce" IdType="ServiceID">
             <se:OrganisationID>1122334444</se:OrganisationID>
         </se:Issuer>
         <se:ReceiptCode>1281111260543493</se:ReceiptCode>

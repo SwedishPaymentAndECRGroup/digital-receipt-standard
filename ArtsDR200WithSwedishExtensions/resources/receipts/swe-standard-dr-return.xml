@@ -4,7 +4,7 @@
                     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                     xsi:schemaLocation="http://www.nrf-arts.org/IXRetail/namespace/ http://www.nrf-arts.org/IXRetail/namespace/DigitalReceiptV2.0.0.xsd
                     http://www.sweretailstandard.se/schemas/namespace/se http://www.sweretailstandard.se/schemas/namespace/se/SweArtsDR200ExtV1.0.0.xsd">
-    <nam:Transaction>
+    <nam:Transaction TypeCode="ReturnTransaction">
         <nam:BusinessUnit>
             <nam:UnitID Name="My Superstore">RS-0221</nam:UnitID>
             <nam:Address>
@@ -45,10 +45,6 @@
                     <nam:Tax>
                         <nam:Percent>25</nam:Percent>
                     </nam:Tax>
-                    <nam:TransactionLink>
-                        <nam:TransactionID>cd5d49f0-56e8-11e1-b86c-0800200c9a66</nam:TransactionID>
-                    </nam:TransactionLink>
-                    <se:ReceiptCodeLink>1281111260543493</se:ReceiptCodeLink>
                     <nam:Reason>NA</nam:Reason>
                 </nam:Return>
                 <nam:SequenceNumber>1</nam:SequenceNumber>
@@ -75,9 +71,13 @@
             		<nam:LocalNumber>11223344</nam:LocalNumber>
             	</nam:TelephoneNumber>
             </nam:Customer>
+            <nam:TransactionLink>
+                <nam:TransactionID>cd5d49f0-56e8-11e1-b86c-0800200c9a66</nam:TransactionID>
+            </nam:TransactionLink>
+            <se:ReceiptCodeLink>1281111260543493</se:ReceiptCodeLink>
             <se:Receiver Type="NationalIdentityNumber">2210228884</se:Receiver>
         </nam:RetailTransaction>
-        <se:Issuer id="5922f97bfeb148d6b9a6ef76f76ebdce" idType="ServiceID">
+        <se:Issuer Id="5922f97bfeb148d6b9a6ef76f76ebdce" IdType="ServiceID">
             <se:OrganisationID>1122334444</se:OrganisationID>
         </se:Issuer>
         <se:ReceiptCode>1202151240570529</se:ReceiptCode>

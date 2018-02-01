@@ -100,8 +100,8 @@
         <xs:sequence>
             <xs:element name="OrganisationID" minOccurs="0" type="xs:string"/>
         </xs:sequence>
-        <xs:attribute name="id" type="xs:string"/>
-        <xs:attribute name="idType" type="IssuerIDType"/>
+        <xs:attribute name="Id" type="xs:string"/>
+        <xs:attribute name="IdType" type="IssuerIDType"/>
     </xs:complexType>
     <xs:element name="Issuer" type="IssuerType"/>
     <xs:simpleType name="IssuerIDType">
@@ -123,7 +123,7 @@
             <xs:sequence>
                 <xs:element maxOccurs="unbounded" minOccurs="0" name="Text" type="TextType"/>
             </xs:sequence>
-            <xs:attribute name="textOnly" type="xs:boolean" default="true"/>
+            <xs:attribute name="TextOnly" type="xs:boolean" default="true"/>
         </xs:complexType>
     </xs:element>
 
@@ -270,6 +270,6 @@
     <!-- a link to be displayed, e.g. related to a sales item -->
     <xs:attribute name="href" type="xs:anyURI"/>
     <!-- if true the receipt is a digital copy -->
-    <xs:attribute name="copy" type="xs:boolean" default="false"/>
+    <xs:attribute name="Copy" type="xs:boolean" default="false"/>
 
 </xs:schema>

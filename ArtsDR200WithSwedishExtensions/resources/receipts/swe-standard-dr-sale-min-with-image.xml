@@ -6,7 +6,7 @@
 http://www.nrf-arts.org/IXRetail/namespace/DigitalReceiptV2.0.0.xsd
 http://www.sweretailstandard.se/schemas/namespace/se
 http://www.sweretailstandard.se/schemas/namespace/se/SweArtsDR200ExtV1.0.0.xsd">
-    <nam:Transaction se:copy="false">
+    <nam:Transaction se:Copy="false">
         <nam:BusinessUnit>
             <nam:UnitID Name="Fiskens kiosk Gbg Nils Ericsonsplatsen">24100</nam:UnitID>
             <nam:Address>

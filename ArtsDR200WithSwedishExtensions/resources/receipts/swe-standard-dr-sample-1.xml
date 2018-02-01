@@ -261,7 +261,7 @@
             <se:ServiceID>5922f97bfeb148d6b9a6ef76f76ebdce</se:ServiceID>
         </se:BusinessUnit>
         <!-- Second, a new element Issuer -->
-        <se:Issuer id="5922f97bfeb148d6b9a6ef76f76ebdce" idType="ServiceID">
+        <se:Issuer Id="5922f97bfeb148d6b9a6ef76f76ebdce" IdType="ServiceID">
             <se:OrganisationID>9999999999</se:OrganisationID>
         </se:Issuer>
         <se:ReceiptCode>1411630411409366</se:ReceiptCode>
