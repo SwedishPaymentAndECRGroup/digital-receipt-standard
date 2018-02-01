@@ -271,6 +271,8 @@ Example:
 <ReceiptNumber TypeCode="se:DataMatrix">AEXD5039G2504</ReceiptNumber>
 ```
 
+![alt text](https://github.com/SwedishPaymentAndECRGroup/digital-receipt-standard/blob/master/ArtsDR200WithSwedishExtensions/resources/images/AEXD5039G2504-barcode.gif)
+
 #### RetailTransaction
 
 The *RetailTransaction* element contains detailed information about the order, sales etc.
