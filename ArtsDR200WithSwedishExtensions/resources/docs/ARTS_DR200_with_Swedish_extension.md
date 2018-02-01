@@ -262,12 +262,15 @@ Example:
 
 #### ReceiptNumber
 
-If the receipt number *TypeCode* identifies a barcode, the barcode can be displayed on the digital receipt. The supported formats are *Interleaved2Of5, EAN13, EAN8, Codabar, Code39, Code128, PDF417, UPC-A, UPC-E*.
+If the receipt number *(TypeCode attribute)* identifies a barcode, the barcode can be displayed on the digital receipt. The supported formats are *Interleaved2Of5, Codabar, Code39, Code128, PDF417* (part of ARTS), *se:QR, se:DataMatrix* (swedish extension).
+
+**NOTE!** ARTS DR200 supports more barcode formats than mentioned above. Many of those formats are aimed for item identification and should not be used in the *ReceiptNumber* context.  
 
 Example:
 ```
-<ReceiptNumber TypeCode="EAN13">5060033952504</ReceiptNumber>
+<ReceiptNumber TypeCode="se:DataMatrix">AEXD5039G2504</ReceiptNumber>
 ```
+
 #### RetailTransaction
 
 The *RetailTransaction* element contains detailed information about the order, sales etc.
