@@ -39,7 +39,7 @@
 
 
 #Table of content
-1. TODO ADD...
+1. TO BE DEFINED
 
 ## Introduction <a name="introduction"></a>
 
@@ -487,6 +487,7 @@ Example:
 ##### Attachment - Swedish standard extension
 
 Base64 encoded binary files or external viewable resources can be attached to the receipt. This could be:
+* Text or image representation of the receipt
 * Insurance documents
 * Warranty documents
 * Assembly instructions
@@ -508,7 +509,9 @@ Example:
        <FromDate>2013-02-25</FromDate>
        <ToDate>2013-03-25</ToDate>
     </ValidPeriod>
-    <Image TypeCode="PDF">B64ENCODED WARRANTY ATTACHMENT</Image>
+    <Content xmime:contentType="application/pdf" xmlns:xmime="http://www.w3.org/2005/05/xmlmime">
+        B64ENCODED WARRANTY ATTACHMENT
+    </Content>
     <ItemLink>1</ItemLink>
 </Attachment>
 <Attachment>
@@ -519,11 +522,11 @@ Example:
 ```
 Compulsory elements:
 * *Name*: will be displayed as the attachment name in the digital receipt view.
-* One of *Image* or *URL*:
-    * *Image*: The base64 encoded attachment. Supported attachment types (*TypeCode*):
-        * PDF
-        * JPG
-        * PNG
+* One of *Content* or *URL*:
+    * *Content*: The base64 encoded attachment. Attachment content type example (mime types):
+        * application/pdf
+        * text/plain
+        * image/png
     * *URL*: URL to web-viewable content (html, movie, etc)
 Non-compulsory elements:
 * *Description*: Text giving further information on the attachment content.
@@ -550,6 +553,8 @@ The attachment element should added at the end of the RetailTransaction, example
 …
 <DigitalReceipt>
 ```
+
+**NOTE!** ARTS has a *ReceiptImage* element. This element can contain an image/text representation of the receipt. The problem with this element is the poor support of image types. The *Attachment* element described in this section supports all valid mime types.
 ### Control unit information - Swedish standard extension
 
 In some countries/markets (like Sweden) a control unit is connected to the POS. Information from this unit is (can be) printed on the paper receipt. To add this information to the digital receipt use the *ControlUnit* element. Example:
