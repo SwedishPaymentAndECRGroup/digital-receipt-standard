@@ -285,7 +285,7 @@ See the ARTS DR200 schema for details and information about other elements.
 
 Each *LineItem* contains payment info, tax info, article info etc. Each *LineItem* must have a unique *SequenceNumber* element. All *LineItems* kan contain the *href* and *imagesrc* attributes. These attributes can be used to add product links and product images to the receipt.
 
-All *sale* and *return items* must contain at least one identifier. Different type of identifiers can be used. Concsider using *GTIN* combined with *LotNumber* and *SerialNumber*:
+All *sale* and *return items* must contain at least one identifier. Different type of identifiers can be used. Consider using *GTIN* combined with *LotNumber* and *SerialNumber*:
 
 Many retail supply chains are moving towards a more granular identification of trade items, beyond the GS1 Global Trade Item Number, GTIN. The industry has started its migration from traditional 1D barcodes to 2D codes, such as QR or GS1 DataMatrix (prescription pharmaceuticals sold in the EU has this since Feb 9th 2019).
 
