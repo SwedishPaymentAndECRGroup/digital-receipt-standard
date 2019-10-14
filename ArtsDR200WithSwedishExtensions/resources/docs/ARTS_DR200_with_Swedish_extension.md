@@ -30,6 +30,12 @@
     <td>Converted to markdown from google doc format</td>
   </tr>  
   <tr>
+    <td>0.13</td>
+    <td>2019-10-14</td>
+    <td>Lars Bergström</td>
+    <td>Why you should use gtin, lot number and serial number</td>
+  </tr>  	
+  <tr>
     <td></td>
     <td></td>
     <td></td>
