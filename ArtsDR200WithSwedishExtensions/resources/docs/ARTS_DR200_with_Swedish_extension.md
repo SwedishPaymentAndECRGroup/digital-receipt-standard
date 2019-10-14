@@ -285,13 +285,23 @@ See the ARTS DR200 schema for details and information about other elements.
 
 Each *LineItem* contains payment info, tax info, article info etc. Each *LineItem* must have a unique *SequenceNumber* element. All *LineItems* kan contain the *href* and *imagesrc* attributes. These attributes can be used to add product links and product images to the receipt.
 
+All *sale* and *return items* must contain at least one identifier. Different type of identifiers can be used. Concsider using *GTIN* combined with *LotNumber* and *SerialNumber*:
+
+Many retail supply chains are moving towards a more granular identification of trade items, beyond the GS1 Global Trade Item Number, GTIN. The industry has started its migration from traditional 1D barcodes to 2D codes, such as QR or GS1 DataMatrix (prescription pharmaceuticals sold in the EU has this since Feb 9th 2019).
+
+This migration opens up the possibility to encode GTIN, batch number, serial number and expiry dates in the same symbol. This in turn enables retail POS systems to capture and process not only the GTIN, but also the additional data encoded. The additional data can be used to improve consumer safety by verifying that a bath is not recalled, the serial number is authentic, and that expiry dates have not been passed. This technique is called Application Identifiers in the GS1 context.
+
+To enable similar features also post POS, it is valuable that any additional data attributes captured at POS is also included in the digital receipt. This will enable things like targeted recalls to consumers, product registration for durable goods and more.
+
+Details about data formats for all Application Identifiers is available at https://www.gs1.org/standards/barcodes/application-identifiers
+
+
 ###### LineItem - Sale
 
 Example sale article:
 ```
 <LineItem se:href="http://myshop.foo/item/608794" se:imgsrc="http://myshop.foo/item/608794/image.png">
     <Sale ItemType="Stock" TaxableFlag="true" ReturnableFlag="true">
-      	<ItemID Type="GTIN">17311310026612</ItemID>
         <POSIdentity>
             <POSItemID>608794</POSItemID>
         </POSIdentity>
@@ -303,6 +313,8 @@ Example sale article:
             <POSItemID>010303</POSItemID>
             <Qualifier>säkerhetsdetaljer</Qualifier>
         </POSIdentity>
+      	<ItemID Type="GTIN">17311310026612</ItemID>
+	<LotNumber>ABCD1234</LotNumber>	
         <Description>Bogserlina med krokar</Description>
         <UnitCostPrice Currency="SEK" Quantity="1" UnitOfMeasureCode="EA">79.00</UnitCostPrice>
         <ActualSalesUnitPrice Currency="SEK" Action="Add">69.00</ActualSalesUnitPrice>
@@ -329,7 +341,9 @@ There are several ways to identify a sale item:
     * supplier
     * brand
 * ItemID - qualified with *Type*. Supported  *Types:*
-    * GTIN
+    * GTIN    
+* LotNumber (batch number)
+* SerialNumber
 * Description
 
 The following elements should be displayed when presenting the content of a digital receipt:
